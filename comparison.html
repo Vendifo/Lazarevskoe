@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link rel="stylesheet" type="text/css"
+        href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
+
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/root.css">
+    <link rel="stylesheet" href="./assets/css/index.css">
+    <link rel="stylesheet" href="./assets/css/favorites.css">
+    <link rel="stylesheet" href="./assets/css/vacation.css">
+    <link rel="stylesheet" href="./assets/css/comparison.css">
+    <link rel="stylesheet" href="./assets/css/catalog.css">
+    <link rel="stylesheet" href="./assets/css/card.css">
+    <link rel="stylesheet" href="./assets/css/cafe.css">
+    <link rel="stylesheet" href="./assets/css/components/button.css">
+
+</head>
+
+<body>
+    <div class="nav-head">
+        <header class="header">
+            <div class="header__geolocation">
+                <a href="./index.html"><img class="header__logo" src="./assets/image/logo.svg" alt="logo"></a>
+                <div class="header__location-selector">
+                    <img class="header__geo-img" src="./assets/image/location.svg" alt="location">
+                    <select class="header__geo ">
+                        <option value="">Лазаревское</option>
+                        <option value="">Вишневка</option>
+                        <option value="">Волконка</option>
+                    </select>
+                </div>
+            </div>
+            <button class="header__button-object button-green">Добавить объект</button>
+            <div class="header__icons-authentication">
+                <div class="header__icons">
+                    <a class="header__comparison" href="./comparison.html">
+                        <a href="./comparison.html"><img class="header__comparison-img" src="./assets/image/comparison.svg" alt="comparison"></a>
+                    </a>
+                    <a class="header__like" href="./favorites.html">
+                        <a href="./favorites.html"><img class="header__like-img" src="./assets/image/like.svg" alt="like"></a>
+                    </a>
+                </div>
+                <div class="header__authentication">
+                    <button class="header__login-button button-green">Войти</button>
+                    <button class="header__registration-button button-green">Зарегистрироваться</button>
+                </div>
+            </div>
+        </header>
+        <nav class="nav">
+            <div class="container">
+                <div class="navbar">
+                    <button class="nav__menu">
+                        <img src="./assets/image/burger-menu.svg" alt="" id="burger" class="menu-icon">
+                        <img src="./assets/image/cross.svg" alt="" class="close-icon">
+                    </button>
+                    <div class="nav__icons">
+                        <a class="nav__comparison" href="">
+                            <a href="./comparison.html"><img class="nav__comparison-img" src="./assets/image/comparison-white.svg" alt="comparison"></a>
+                        </a>
+                        <a class="nav__like" href="">
+                            <a href="./favorites.html"><img class="nav__like-img" src="./assets/image/like-white.svg" alt="like"></a>
+                        </a>
+                    </div>
+                    <div class="nav__user">
+                        <button class="nav__user-button">
+                            <img src="./assets/image/user.svg" alt="user">
+                        </button>
+                        <div class="nav__authentication">
+                            <div class="nav__func">
+                                <button class="nav__login-button button-green">Войти</button>
+                                <p>или</p>
+                                <button class="nav__registration-button button-green">Зарегистрироваться</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <ul class="nav__list" id="menu">
+                    <li class="nav__item"><a href="./catalog-house.html">Гостевые дома</a></li>
+                    <li class="nav__item"><a href="./catalog-hostel.html">Гостиницы</a></li>
+                    <li class="nav__item"><a href="./catalog-hotel.html">Отели</a></li>
+                    <li class="nav__item"><a href="./catalog.html">Частный сектор</a></li>
+                    <li class="nav__item"><a href="./catalog-flat.html">Квартиры</a></li>
+                    <li class="nav__item"><a href="./catalog-sanatorium.html">Санатории</a></li>
+                    <li class="nav__item"><a href="./catalog-unmove.html">Недвижимость</a></li>
+                    <li class="nav__item"><a href="./catalog-excursion.html">Экскурсии</a></li>
+                    <button class="nav__button-object button-blue ">Добавить объект</button>
+                </ul>
+            </div>
+        </nav>
+    </div>
+
+    <main class="main">
+        <section class="comparison">
+            <div class="container">
+                <p class="link">
+                    <a class="link" href="">Главная</a>
+                    /Проживание
+                </p>
+                <div class="comparison__sort">
+                    <h1>Сравнение мест проживания</h1>
+                    <div class="comparison__sort-func">
+                        <p>По цене</p>
+                        <div><img src="./assets/image/sort-asc.svg" alt=""></div>
+                        <div><img src="./assets/image/sort-desc.svg" alt=""></div>
+
+                    </div>
+                    <div class="comparison__sort-func">
+                        <p>По отзывам</p>
+                        <div><img src="./assets/image/sort-asc.svg" alt=""></div>
+                        <div><img src="./assets/image/sort-desc.svg" alt=""></div>
+
+                    </div>
+                    <div class="comparison__sort-func">
+                        <p>По удалённости от моря</p>
+                        <div><img src="./assets/image/sort-asc.svg" alt=""></div>
+                        <div><img src="./assets/image/sort-desc.svg" alt=""></div>
+
+                    </div>
+                </div>
+                <div class="comparison__sort-list">
+                    <div class="comparison__sort-item">
+                        <div class="comparison__sort-item__img">
+
+                            <img class="comparison__sort-item__img-main"  src="./assets/image/comparison.png" alt="">
+
+                            <div>
+                                <img class="comparison__sort-item__img-delete"  src="./assets/image/delete.svg" alt="">
+                            </div>
+                        </div>
+                        <h1 class="comparison__sort-item-title" >Частный дом «Виталий»</h1>
+                        <p class="comparison__sort-item-price" >от 1 800 ₽</p>
+                        <div class="comparison__contacts">
+                            <h1>Контакты</h1>
+                            <div>
+                                <button class="button-green">8(918)… Показать</button>
+                                <button class="button-green">WhatsApp</button>
+                            </div>
+                            <p class="card__contacts-name">Виталий Георгиевич</p>
+                            <p class="card__contacts-email">vit-arakelov@yandex.ru</p>
+                            <p class="card__contacts-marking">с пометкой «С сайта про Лазаревское»</p>
+                            <p class="card__contacts-phone">При звонке просьба ссылаться на портал ProLazarevskoe.ru
+                            </p>
+                        </div>
+                        <div class="card__characteristics">
+                            <h1>Характеристики</h1>
+                            <ul>
+                                <li>Wi-Fi<span>Да</span></li>
+                                <li>Бассейн<span>Нет</span></li>
+                                <li>Питание<span>Без питания</span></li>
+                                <li>Кухня<span>Нет</span></li>
+                                <li>Детская площадка<span>Нет</span></li>
+                                <li>Санузел в номере<span>Да</span></li>
+                                <li>Дворовая территория<span>Да</span></li>
+                                <li>ТВ в номере<span>Нет</span></li>
+                                <li>Сплит-система<span>Да</span></li>
+                                <li>Холодильник<span>Да</span></li>
+                                <li>Автостоянка<span>Да</span></li>
+                                <li>Собственный пляж<span>Нет</span></li>
+                                <li>Баня, сауна<span>Нет</span></li>
+                                <li>Вид на море<span>Да</span></li>
+                                <li>Расположен<span>Лазаревское</span></li>
+                                <li>До моря, минуты<span>3 минуты</span></li>
+                            </ul>
+                        </div>
+                        <div class="card__services">
+                            <h1>Дополнительные услуги</h1>
+                            <ul>
+                                <li>Автостоянка</li>
+                                <li>Мангал</li>
+                                <li>Утюг, гладильная доска</li>
+                                <li>Стиральная машина (платно)</li>
+                                <li>Смена постельного белья 1 раз в пять дней</li>
+                                <li>СВЧ</li>
+                                <li>Холодильники</li>
+                            </ul>
+                            <button class="button-green">Забронировать</button>
+                        </div>
+
+                    </div>
+                    <div class="comparison__sort-item">
+                        <div class="comparison__sort-item__img">
+
+                            <img class="comparison__sort-item__img-main"  src="./assets/image/comparison.png" alt="">
+
+                            <div>
+                                <img class="comparison__sort-item__img-delete"  src="./assets/image/delete.svg" alt="">
+                            </div>
+                        </div>
+                        <h1 class="comparison__sort-item-title" >Частный дом «Виталий»</h1>
+                        <p class="comparison__sort-item-price" >от 1 800 ₽</p>
+                        <div class="comparison__contacts">
+                                <h1>Контакты</h1>
+                                <div>
+                                    <button class="button-green">8(918)… Показать</button>
+                                    <button class="button-green">WhatsApp</button>
+                                </div>
+                                <p class="card__contacts-name">Виталий Георгиевич</p>
+                                <p class="card__contacts-email">vit-arakelov@yandex.ru</p>
+                                <p class="card__contacts-marking">с пометкой «С сайта про Лазаревское»</p>
+                                <p class="card__contacts-phone">При звонке просьба ссылаться на портал ProLazarevskoe.ru
+                                </p>
+                            </div>
+                        <div class="card__characteristics">
+                            <h1>Характеристики</h1>
+                            <ul>
+                                <li>Wi-Fi<span>Да</span></li>
+                                <li>Бассейн<span>Нет</span></li>
+                                <li>Питание<span>Без питания</span></li>
+                                <li>Кухня<span>Нет</span></li>
+                                <li>Детская площадка<span>Нет</span></li>
+                                <li>Санузел в номере<span>Да</span></li>
+                                <li>Дворовая территория<span>Да</span></li>
+                                <li>ТВ в номере<span>Нет</span></li>
+                                <li>Сплит-система<span>Да</span></li>
+                                <li>Холодильник<span>Да</span></li>
+                                <li>Автостоянка<span>Да</span></li>
+                                <li>Собственный пляж<span>Нет</span></li>
+                                <li>Баня, сауна<span>Нет</span></li>
+                                <li>Вид на море<span>Да</span></li>
+                                <li>Расположен<span>Лазаревское</span></li>
+                                <li>До моря, минуты<span>3 минуты</span></li>
+                            </ul>
+                        </div>
+                        <div class="card__services">
+                            <h1>Дополнительные услуги</h1>
+                            <ul>
+                                <li>Автостоянка</li>
+                                <li>Мангал</li>
+                                <li>Утюг, гладильная доска</li>
+                                <li>Стиральная машина (платно)</li>
+                                <li>Смена постельного белья 1 раз в пять дней</li>
+                                <li>СВЧ</li>
+                                <li>Холодильники</li>
+                            </ul>
+                            <button class="button-green">Забронировать</button>
+                        </div>
+
+                    </div>
+                    <div class="comparison__sort-item">
+                        <div class="comparison__sort-item__img">
+
+                            <img class="comparison__sort-item__img-main"  src="./assets/image/comparison.png" alt="">
+
+                            <div>
+                                <img class="comparison__sort-item__img-delete"  src="./assets/image/delete.svg" alt="">
+                            </div>
+                        </div>
+                        <h1 class="comparison__sort-item-title" >Частный дом «Виталий»</h1>
+                        <p class="comparison__sort-item-price" >от 1 800 ₽</p>
+                        <div class="comparison__contacts">
+                            <h1>Контакты</h1>
+                            <div>
+                                <button class="button-green">8(918)… Показать</button>
+                                <button class="button-green">WhatsApp</button>
+                            </div>
+                            <p class="card__contacts-name">Виталий Георгиевич</p>
+                            <p class="card__contacts-email">vit-arakelov@yandex.ru</p>
+                            <p class="card__contacts-marking">с пометкой «С сайта про Лазаревское»</p>
+                            <p class="card__contacts-phone">При звонке просьба ссылаться на портал ProLazarevskoe.ru
+                            </p>
+                        </div>
+                        <div class="card__characteristics">
+                            <h1>Характеристики</h1>
+                            <ul>
+                                <li>Wi-Fi<span>Да</span></li>
+                                <li>Бассейн<span>Нет</span></li>
+                                <li>Питание<span>Без питания</span></li>
+                                <li>Кухня<span>Нет</span></li>
+                                <li>Детская площадка<span>Нет</span></li>
+                                <li>Санузел в номере<span>Да</span></li>
+                                <li>Дворовая территория<span>Да</span></li>
+                                <li>ТВ в номере<span>Нет</span></li>
+                                <li>Сплит-система<span>Да</span></li>
+                                <li>Холодильник<span>Да</span></li>
+                                <li>Автостоянка<span>Да</span></li>
+                                <li>Собственный пляж<span>Нет</span></li>
+                                <li>Баня, сауна<span>Нет</span></li>
+                                <li>Вид на море<span>Да</span></li>
+                                <li>Расположен<span>Лазаревское</span></li>
+                                <li>До моря, минуты<span>3 минуты</span></li>
+                            </ul>
+                        </div>
+                        <div class="card__services">
+                            <h1>Дополнительные услуги</h1>
+                            <ul>
+                                <li>Автостоянка</li>
+                                <li>Мангал</li>
+                                <li>Утюг, гладильная доска</li>
+                                <li>Стиральная машина (платно)</li>
+                                <li>Смена постельного белья 1 раз в пять дней</li>
+                                <li>СВЧ</li>
+                                <li>Холодильники</li>
+                            </ul>
+                            <button class="button-green">Забронировать</button>
+                        </div>
+
+                    </div>
+                    <div class="comparison__sort-item">
+                        <div class="comparison__sort-item__img">
+
+                            <img class="comparison__sort-item__img-main"  src="./assets/image/comparison.png" alt="">
+
+                            <div>
+                                <img class="comparison__sort-item__img-delete"  src="./assets/image/delete.svg" alt="">
+                            </div>
+                        </div>
+                        <h1 class="comparison__sort-item-title" >Частный дом «Виталий»</h1>
+                        <p class="comparison__sort-item-price" >от 1 800 ₽</p>
+                        <div class="comparison__contacts">
+                            <h1>Контакты</h1>
+                            <div>
+                                <button class="button-green">8(918)… Показать</button>
+                                <button class="button-green">WhatsApp</button>
+                            </div>
+                            <p class="card__contacts-name">Виталий Георгиевич</p>
+                            <p class="card__contacts-email">vit-arakelov@yandex.ru</p>
+                            <p class="card__contacts-marking">с пометкой «С сайта про Лазаревское»</p>
+                            <p class="card__contacts-phone">При звонке просьба ссылаться на портал ProLazarevskoe.ru
+                            </p>
+                        </div>
+                        <div class="card__characteristics">
+                            <h1>Характеристики</h1>
+                            <ul>
+                                <li>Wi-Fi<span>Да</span></li>
+                                <li>Бассейн<span>Нет</span></li>
+                                <li>Питание<span>Без питания</span></li>
+                                <li>Кухня<span>Нет</span></li>
+                                <li>Детская площадка<span>Нет</span></li>
+                                <li>Санузел в номере<span>Да</span></li>
+                                <li>Дворовая территория<span>Да</span></li>
+                                <li>ТВ в номере<span>Нет</span></li>
+                                <li>Сплит-система<span>Да</span></li>
+                                <li>Холодильник<span>Да</span></li>
+                                <li>Автостоянка<span>Да</span></li>
+                                <li>Собственный пляж<span>Нет</span></li>
+                                <li>Баня, сауна<span>Нет</span></li>
+                                <li>Вид на море<span>Да</span></li>
+                                <li>Расположен<span>Лазаревское</span></li>
+                                <li>До моря, минуты<span>3 минуты</span></li>
+                            </ul>
+                        </div>
+                        <div class="card__services">
+                            <h1>Дополнительные услуги</h1>
+                            <ul>
+                                <li>Автостоянка</li>
+                                <li>Мангал</li>
+                                <li>Утюг, гладильная доска</li>
+                                <li>Стиральная машина (платно)</li>
+                                <li>Смена постельного белья 1 раз в пять дней</li>
+                                <li>СВЧ</li>
+                                <li>Холодильники</li>
+                            </ul>
+                            <button class="button-green">Забронировать</button>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__content">
+                <div class="footer__social">
+                    <h1>Мы в соцсетях!</h1>
+                    <div>
+                        <a class="social-link" href="#">
+                            <img src="./assets/image/OK.svg" alt="OK">
+                            <span>OK</span>
+                        </a>
+                        <a class="social-link" href="#">
+                            <img src="./assets/image/VK.svg" alt="VK">
+                            <span>VK</span>
+                        </a>
+                        <a class="social-link" href="#">
+                            <img src="./assets/image/YouTube.svg" alt="YouTube">
+                            <span>YouTube</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="footer__info">
+                    <img src="./assets/image/logo.svg" alt="Логотип">
+                    <p>Внимание: портал ProLazarevskoe.ru не является системой on-line бронирования.Здесь вы можете
+                        связаться с владельцами гостевых домов и отелей, частного сектора и квартир.</p>
+                </div>
+                <div class="footer__links">
+                    <h1>О сайте</h1>
+                    <ul>
+                        <li><a href="#"><button class="footer-btn button-green">Добавить объект</button></a></li>
+                        <li><a href="#"><button class="footer-btn">Личный кабинет</button></a></li>
+                        <li><a href="#"><button class="footer-btn">Регистрация на сайте</button></a></li>
+                        <li><a href="#"><button class="footer-btn">Контакты</button></a></li>
+                    </ul>
+                </div>
+            </div>
+            <p class="company">Copyright © Отдых в Лазаревском 2023 — Гостиницы, гостевые дома, частный сектор, квартиры
+                без посредников.</p>
+        </div>
+    </footer>
+
+
+
+    <script src="./assets/js/lib/jquery-3.6.3.min.js"></script>
+    <script src="./assets/js/lib/slick.min.js"></script>
+
+    <script src="./assets/js/burger-menu.js"></script>
+    <script src="./assets/js/user-button.js"></script>
+    <script src="./assets/js/catalog-load.js"></script>
+
+</body>
+
+</html>

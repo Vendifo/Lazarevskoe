@@ -1,0 +1,17 @@
+.beach__map {
+    margin: 60px 0;
+}
+
+.beach-map {
+    overflow: hidden;
+    width: 100%;
+    border-radius: 30px;
+}
+
+.google-map {
+    width: 100%;
+}
+
+.eat {
+    margin-top: 60px;
+}

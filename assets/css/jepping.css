@@ -1,0 +1,137 @@
+@media only screen and (min-width: 1200px) {
+    .jeppin__content-item {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .jeppin__content-title {
+        margin-top: 60px;
+        margin-bottom: 20px;
+        color: var(--blue);
+        font-size: 40px;
+        font-weight: 800;
+        line-height: 49px;
+    }
+    
+    .jeppin__content-item p {
+        max-width: 650px;
+        font-size: 15p;
+        font-weight: 400;
+        line-height: 18px;
+    }
+    
+    .jeppin-gallery h1 {
+        margin-top: 60px;
+        margin-bottom: 20px;
+        color: var(--blue);
+        font-size: 40px;
+        font-weight: 800;
+        line-height: 49px;
+    }
+    
+    .jeppin__gallery-content {
+        display: flex;
+        gap: 20px;
+    }
+    
+    .jeppin__gallery-content div {
+        width: 295px;
+        height: 268px;
+        border-radius: 30px;
+    }
+    
+    .jeppin__gallery-content img {
+        width: 295px;
+        height: 268px;
+        border-radius: 30px;
+    }
+    
+    .jeppin__gallery-content p {
+        margin-top: 20px;
+        text-align: center;
+        color: var(--blue);
+        font-size: 30px;
+        font-weight: 600;
+        line-height: 36px;
+    }
+
+    .jeppin-excursions {
+        margin-bottom: 40px;
+    }
+}
+
+
+@media only screen and (max-width: 1200px) {
+    .jeppin__content-item {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: space-between;
+        gap: 10px;
+    }
+    
+    .jeppin__content-title {
+        margin-top: 60px;
+        margin-bottom: 20px;
+        color: var(--blue);
+        font-size: 25px;
+        font-weight: 800;
+        line-height: 30px;
+    }
+    
+    .jeppin__content-item p {
+        max-width: 650px;
+        font-size: 15p;
+        font-weight: 400;
+        line-height: 18px;
+    }
+
+    .jeppin-gallery {
+        margin-bottom: 60px;
+    }
+    
+    .jeppin-gallery h1 {
+        margin-top: 60px;
+        margin-bottom: 20px;
+        color: var(--blue);
+        font-size: 25px;
+        font-weight: 800;
+        line-height: 30px;
+    }
+    
+    .jeppin__gallery-content {
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        overflow-y: hidden;
+        height: 100%;
+        gap: 20px;
+    }
+    
+    .jeppin__gallery-content div {
+        
+        flex-direction: column;
+        width: max-content;
+        width: 155px;
+        height: 100%;
+        border-radius: 30px;
+    }
+    
+    .jeppin__gallery-content img {
+        width: 155px;
+        height: 141px;
+        border-radius: 30px;
+    }
+    
+    .jeppin__gallery-content p {
+        margin-top: 20px;
+        text-align: center;
+        color: var(--blue);
+        font-size: 15px;
+        font-weight: 700;
+        line-height: 18px;
+    }
+
+    .jeppin-excursions {
+        margin-bottom: 40px;
+    }
+}
+

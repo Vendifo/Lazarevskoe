@@ -1,0 +1,656 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link rel="stylesheet" type="text/css"
+        href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
+
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/root.css">
+    <link rel="stylesheet" href="./assets/css/index.css">
+    <link rel="stylesheet" href="./assets/css/favorites.css">
+    <link rel="stylesheet" href="./assets/css/vacation.css">
+    <link rel="stylesheet" href="./assets/css/comparison.css">
+    <link rel="stylesheet" href="./assets/css/catalog.css">
+    <link rel="stylesheet" href="./assets/css/card.css">
+    <link rel="stylesheet" href="./assets/css/cafe.css">
+    <link rel="stylesheet" href="./assets/css/components/button.css">
+
+
+</head>
+
+<body>
+    <div class="nav-head">
+        <header class="header">
+            <div class="header__geolocation">
+                <a href="./index.html"><img class="header__logo" src="./assets/image/logo.svg" alt="logo"></a>
+                <div class="header__location-selector">
+                    <img class="header__geo-img" src="./assets/image/location.svg" alt="location">
+                    <select class="header__geo ">
+                        <option value="">Лазаревское</option>
+                        <option value="">Вишневка</option>
+                        <option value="">Волконка</option>
+                    </select>
+                </div>
+            </div>
+            <button class="header__button-object button-green">Добавить объект</button>
+            <div class="header__icons-authentication">
+                <div class="header__icons">
+                    <a class="header__comparison" href="./comparison.html">
+                        <a href="./comparison.html"><img class="header__comparison-img" src="./assets/image/comparison.svg" alt="comparison"></a>
+                    </a>
+                    <a class="header__like" href="./favorites.html">
+                        <a href="./favorites.html"><img class="header__like-img" src="./assets/image/like.svg" alt="like"></a>
+                    </a>
+                </div>
+                <div class="header__authentication">
+                    <button class="header__login-button button-green">Войти</button>
+                    <button class="header__registration-button button-green">Зарегистрироваться</button>
+                </div>
+            </div>
+        </header>
+        <nav class="nav">
+            <div class="container">
+                <div class="navbar">
+                    <button class="nav__menu">
+                        <img src="./assets/image/burger-menu.svg" alt="" id="burger" class="menu-icon">
+                        <img src="./assets/image/cross.svg" alt="" class="close-icon">
+                    </button>
+                    <div class="nav__icons">
+                        <a class="nav__comparison" href="">
+                            <a href="./comparison.html"><img class="nav__comparison-img" src="./assets/image/comparison-white.svg" alt="comparison"></a>
+                        </a>
+                        <a class="nav__like" href="">
+                            <a href="./favorites.html"><img class="nav__like-img" src="./assets/image/like-white.svg" alt="like"></a>
+                        </a>
+                    </div>
+                    <div class="nav__user">
+                        <button class="nav__user-button">
+                            <img src="./assets/image/user.svg" alt="user">
+                        </button>
+                        <div class="nav__authentication">
+                            <div class="nav__func">
+                                <button class="nav__login-button button-green">Войти</button>
+                                <p>или</p>
+                                <button class="nav__registration-button button-green">Зарегистрироваться</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <ul class="nav__list" id="menu">
+                    <li class="nav__item"><a href="./catalog-house.html">Гостевые дома</a></li>
+                    <li class="nav__item"><a href="./catalog-hostel.html">Гостиницы</a></li>
+                    <li class="nav__item"><a href="./catalog-hotel.html">Отели</a></li>
+                    <li class="nav__item"><a href="./catalog.html">Частный сектор</a></li>
+                    <li class="nav__item"><a href="./catalog-flat.html">Квартиры</a></li>
+                    <li class="nav__item"><a href="./catalog-sanatorium.html">Санатории</a></li>
+                    <li class="nav__item"><a href="./catalog-unmove.html">Недвижимость</a></li>
+                    <li class="nav__item"><a href="./catalog-excursion.html">Экскурсии</a></li>
+                    <button class="nav__button-object button-blue ">Добавить объект</button>
+                </ul>
+            </div>
+        </nav>
+    </div>
+    <main class="main">
+        <div class="container">
+            <p class="link">
+                <a class="link" href="">Главная</a>/
+                <a class="link" href="">Гостевые дома</a>
+                /Частный дом  «Виталий»
+            </p>
+        </div>
+        <section class="card">
+            <div class="container">
+
+                <div class="card__content">
+
+
+                    <div class="card-item">
+                        <h1 class="card-item__title">Частный дом «Виталий»</h1>
+                        <div class="card-item__details">
+                            <img class="card-item__details-geo" src="./assets/image/geo-choic.svg" alt="">
+                            <p class="card-item__details-street">п. Лазаревское, ул. Белинского, 3</p>
+                            <p class="card-item__details-map">Смотреть на карте</p>
+                            <div class="card-item__details-comparison-item">
+                                <img class="card-item__details-comparison" src="./assets/image/comparison-choice.svg"
+                                    alt="">
+                                <p class="">В сравнение</p>
+                            </div>
+                            <div class="card-item__details-like-item">
+                                <img class="card-item__details-like" src="./assets/image/like-choice.svg" alt="">
+                                <p>В избранное</p>
+                            </div>
+                            <p class="card-item__details-testimonial">Отзывы<span> 567</span></p>
+                            <div class="card-item__rating">
+                                <img src="./assets/image/star.svg" alt="">
+                                <img src="./assets/image/star.svg" alt="">
+                                <img src="./assets/image/star.svg" alt="">
+                                <img src="./assets/image/star.svg" alt="">
+                                <img src="./assets/image/star.svg" alt="">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card__main">
+                        <div class="card-navigation">
+                            <div class="card-navigation__item">
+                                <div class="card-navigation__details">
+                                    <div class="card-navigation__details-img-block">
+                                        <img class="card-navigation__details-img" src="./assets/image/card.svg" alt="">
+                                    </div>
+                                    <div class="card-navigation__details-counter">
+                                        <p id="counter">1 / 7</p>
+                                    </div>
+                                    <div class="card-item__details-comparison-item-mobile">
+                                        <img class="card-item__details-comparison-mobile"
+                                            src="./assets/image/comparison-choice.svg" alt="">
+                                        <img class="card-item__details-like-mobile" src="./assets/image/like-choice.svg"
+                                            alt="">
+                                    </div>
+                                </div>
+                                <div class="card-navigation__buttons">
+                                    <button id="prevButton"><img src="./assets/image/arrow-right.svg"
+                                            alt="Previous"></button>
+                                    <button id="nextButton"><img src="./assets/image/arrow-left.svg"
+                                            alt="Next"></button>
+                                </div>
+                            </div>
+                            <div class="card-navigation__details-img-mobile">
+                                <img class="card-item__details-geo-mobile" src="./assets/image/geo-choic.svg" alt="">
+                                <p class="card-item__details-street-mobile">п. Лазаревское, ул. Белинского, 3</p>
+                            </div>
+                            <ul class="card-navigation__list">
+                                <li>
+                                    <div><img src="./assets/image/card.svg" alt=""></div>
+                                </li>
+                                <li>
+                                    <div><img src="./assets/image/card1.svg" alt=""></div>
+                                </li>
+                                <li>
+                                    <div><img src="./assets/image/card2.svg" alt=""></div>
+                                </li>
+                                <li>
+                                    <div><img src="./assets/image/card.svg" alt=""></div>
+                                </li>
+                                <li>
+                                    <div><img src="./assets/image/card1.svg" alt=""></div>
+                                </li>
+                                <li>
+                                    <div><img src="./assets/image/card2.svg" alt=""></div>
+                                </li>
+                                <li>
+                                    <div><img src="./assets/image/card.svg" alt=""></div>
+                                </li>
+                                <li>
+                                    <div><img src="./assets/image/card.svg" alt=""></div>
+                                </li>
+                                <li>
+                                    <div><img src="./assets/image/card1.svg" alt=""></div>
+                                </li>
+                                <li>
+                                    <div><img src="./assets/image/card2.svg" alt=""></div>
+                                </li>
+                                <li>
+                                    <div><img src="./assets/image/card.svg" alt=""></div>
+                                </li>
+                                <li>
+                                    <div><img src="./assets/image/card1.svg" alt=""></div>
+                                </li>
+                                <li>
+                                    <div><img src="./assets/image/card2.svg" alt=""></div>
+                                </li>
+                                <li>
+                                    <div><img src="./assets/image/card.svg" alt=""></div>
+                                </li>
+                                <li>
+                                    <div><img src="./assets/image/card.svg" alt=""></div>
+                                </li>
+                                <li>
+                                    <div><img src="./assets/image/card1.svg" alt=""></div>
+                                </li>
+                                <li>
+                                    <div><img src="./assets/image/card2.svg" alt=""></div>
+                                </li>
+                                <li>
+                                    <div><img src="./assets/image/card.svg" alt=""></div>
+                                </li>
+                                <li>
+                                    <div><img src="./assets/image/card1.svg" alt=""></div>
+                                </li>
+                                <li>
+                                    <div><img src="./assets/image/card2.svg" alt=""></div>
+                                </li>
+                                <li>
+                                    <div><img src="./assets/image/card.svg" alt=""></div>
+                                </li>
+                                <li>
+                                    <div><img src="./assets/image/card.svg" alt=""></div>
+                                </li>
+                                <li>
+                                    <div><img src="./assets/image/card1.svg" alt=""></div>
+                                </li>
+                                <li>
+                                    <div><img src="./assets/image/card2.svg" alt=""></div>
+                                </li>
+                                <li>
+                                    <div><img src="./assets/image/card.svg" alt=""></div>
+                                </li>
+                                <li>
+                                    <div><img src="./assets/image/card1.svg" alt=""></div>
+                                </li>
+                                <li>
+                                    <div><img src="./assets/image/card2.svg" alt=""></div>
+                                </li>
+                                <li>
+                                    <div><img src="./assets/image/card.svg" alt=""></div>
+                                </li>
+                                <li>
+                                    <div><img src="./assets/image/card.svg" alt=""></div>
+                                </li>
+                                <li>
+                                    <div><img src="./assets/image/card1.svg" alt=""></div>
+                                </li>
+                                <li>
+                                    <div><img src="./assets/image/card2.svg" alt=""></div>
+                                </li>
+                                <li>
+                                    <div><img src="./assets/image/card.svg" alt=""></div>
+                                </li>
+                                <li>
+                                    <div><img src="./assets/image/card1.svg" alt=""></div>
+                                </li>
+                                <li>
+                                    <div><img src="./assets/image/card2.svg" alt=""></div>
+                                </li>
+                                <li>
+                                    <div><img src="./assets/image/card.svg" alt=""></div>
+                                </li>
+                                <li>
+                                    <div><img src="./assets/image/card.svg" alt=""></div>
+                                </li>
+                                <li>
+                                    <div><img src="./assets/image/card1.svg" alt=""></div>
+                                </li>
+                                <li>
+                                    <div><img src="./assets/image/card2.svg" alt=""></div>
+                                </li>
+                                <li>
+                                    <div><img src="./assets/image/card.svg" alt=""></div>
+                                </li>
+                                <li>
+                                    <div><img src="./assets/image/card1.svg" alt=""></div>
+                                </li>
+                                <li>
+                                    <div><img src="./assets/image/card2.svg" alt=""></div>
+                                </li>
+                                <li>
+                                    <div><img src="./assets/image/card.svg" alt=""></div>
+                                </li>
+                            </ul>
+                            <div class="card-navigation__text">
+                                <p>Гостевой дом (частный дом) «Виталий» расположен на ул. Белинского в Лазаревском
+                                    (курорт Сочи), всего в 120 метрах от моря и 15 минутах ходьбы от ж/д станции
+                                    «Лазаревская».
+                                    <br>
+                                    До центра курорта — 20 минут пешей прогулки. Дом располагается рядом с летним кафе
+                                    «Минутка», множеством экскурсионных бюро и разнообразной туристической
+                                    инфраструктурой.
+                                    <br><br>
+                                    Поблизости также находятся: аквапарк, дельфинарий, пингвинарий, океонариум.
+                                    Продуктовые и промтоварные магазины расположены в шаговой доступности.
+                                    Рядом большое количество сувенирных лавок, шашлычных и курортных товаров.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="card__info">
+                            <div class="card__contacts">
+                                <h1>Контакты</h1>
+                                <div>
+                                    <button class="button-green">8(918)… Показать</button>
+                                    <button class="button-green">WhatsApp</button>
+                                </div>
+                                <p class="card__contacts-name">Виталий Георгиевич</p>
+                                <p class="card__contacts-email">vit-arakelov@yandex.ru</p>
+                                <p class="card__contacts-marking">с пометкой «С сайта про Лазаревское»</p>
+                                <p class="card__contacts-phone">При звонке просьба ссылаться на портал ProLazarevskoe.ru
+                                </p>
+                            </div>
+                            <div class="card__characteristics">
+                                <h1>Характеристики</h1>
+                                <ul>
+                                    <li>Wi-Fi<span>Да</span></li>
+                                    <li>Бассейн<span>Нет</span></li>
+                                    <li>Питание<span>Без питания</span></li>
+                                    <li>Кухня<span>Нет</span></li>
+                                    <li>Детская площадка<span>Нет</span></li>
+                                    <li>Санузел в номере<span>Да</span></li>
+                                    <li>Дворовая территория<span>Да</span></li>
+                                    <li>ТВ в номере<span>Нет</span></li>
+                                    <li>Сплит-система<span>Да</span></li>
+                                    <li>Холодильник<span>Да</span></li>
+                                    <li>Автостоянка<span>Да</span></li>
+                                    <li>Собственный пляж<span>Нет</span></li>
+                                    <li>Баня, сауна<span>Нет</span></li>
+                                    <li>Вид на море<span>Да</span></li>
+                                    <li>Расположен<span>Лазаревское</span></li>
+                                    <li>До моря, минуты<span>3 минуты</span></li>
+                                </ul>
+                            </div>
+                            <div class="card__services">
+                                <h1>Дополнительные услуги</h1>
+                                <ul>
+                                    <li>Автостоянка</li>
+                                    <li>Мангал</li>
+                                    <li>Утюг, гладильная доска</li>
+                                    <li>Стиральная машина (платно)</li>
+                                    <li>Смена постельного белья 1 раз в пять дней</li>
+                                    <li>СВЧ</li>
+                                    <li>Холодильники</li>
+                                </ul>
+                                <button id="armor" class="button-green">Забронировать</button>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+
+            </div>
+        </section>
+        <div class="blur-armor">
+
+        </div>
+        <div class="armor">
+
+            <div class="armor__container">
+                <p class="armor__close__button" id="closeArmor">&#10006;</p>
+                <div class="armor__head">
+                    <h1 class="armor__title">Бронирование</h1>
+                </div>
+                <div class="armor__inputs">
+                    
+                    <div class="armor__input__info input__set">
+                        <input type="text" placeholder="Введите имя">
+                        <input type="text" placeholder="Фамилия">
+                        <input type="text" placeholder="Электронная почта">
+                        <input type="text" placeholder="Номер телефона">
+                        <input type="text" placeholder="Город">
+                    </div>
+                    <div class="armor__input__hotel input__set">
+                        <input type="text" placeholder="Дата заезда">
+                        <input type="text" placeholder="Дата отъезда">
+                        <input type="text" placeholder="Количество номеров">
+                        <input type="text" placeholder="Вариант размещения">
+                        <input type="text" placeholder="Количество детей до 5 лет">
+                    </div>
+                    <div class="armor__input__message">
+                        <input type="text" placeholder="Сообщение">
+                    </div>
+            </div>
+            </div>
+            <div>
+
+            </div>
+        </div>
+        <section class="price">
+            <div class="container">
+                <h1 class="price__title">Цены</h1>
+                <div class="price__content">
+                    <div class="price__number">
+                        <div>
+                            <h1>Номера</h1>
+                        </div>
+                        <ul>
+                            <li>2-х местный (без балкона)</li>
+                            <li>2-х местный (без балкона)</li>
+                            <li>2-х местный (без балкона)</li>
+                            <li>2-х местный (без балкона)</li>
+                            <li>2-х местный (без балкона)</li>
+                            <li>2-х местный (без балкона)</li>
+                        </ul>
+                    </div>
+                    <div class="price__date">
+                        <div>
+                            <ul>
+                                <h1>1-10 Сен</h1>
+                                <li>1600</li>
+                                <li>1600</li>
+                                <li>1600</li>
+                                <li>1600</li>
+                                <li>1600</li>
+                                <li>1600</li>
+                            </ul>
+                            <ul>
+                                <h1>1-10 Сен</h1>
+                                <li>1600</li>
+                                <li>1600</li>
+                                <li>1600</li>
+                                <li>1600</li>
+                                <li>1600</li>
+                                <li>1600</li>
+                            </ul>
+                            <ul>
+                                <h1>1-10 Сен</h1>
+                                <li>1600</li>
+                                <li>1600</li>
+                                <li>1600</li>
+                                <li>1600</li>
+                                <li>1600</li>
+                                <li>1600</li>
+                            </ul>
+                            <ul>
+                                <h1>1-10 Сен</h1>
+                                <li>1600</li>
+                                <li>1600</li>
+                                <li>1600</li>
+                                <li>1600</li>
+                                <li>1600</li>
+                                <li>1600</li>
+                            </ul>
+                            <ul>
+                                <h1>1-10 Сен</h1>
+                                <li>1600</li>
+                                <li>1600</li>
+                                <li>1600</li>
+                                <li>1600</li>
+                                <li>1600</li>
+                                <li>1600</li>
+                            </ul>
+                            <ul>
+                                <h1>1-10 Сен</h1>
+                                <li>1600</li>
+                                <li>1600</li>
+                                <li>1600</li>
+                                <li>1600</li>
+                                <li>1600</li>
+                                <li>1600</li>
+                            </ul>
+
+                        </div>
+                    </div>
+                </div>
+                <p>Точные цены, просьба уточнять по телефонам, указаным в контактах</p>
+            </div>
+        </section>
+
+        <section class="map">
+            <div class="container">
+                <h1 class="map-title">На карте</h1>
+                <div class="map-map"><iframe class="google-map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2873.64945782824!2d39.310559776663275!3d43.925231034793576!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40f41bcde833b19d%3A0x53e745d526773d23!2z0YPQuy4g0JHQtdC70LjQvdGB0LrQvtCz0L4sINCh0L7Rh9C4LCDQmtGA0LDRgdC90L7QtNCw0YDRgdC60LjQuSDQutGA0LDQuSwg0KDQvtGB0YHQuNGPLCAzNTQyMDA!5e0!3m2!1sru!2suk!4v1708176244304!5m2!1sru!2suk"  style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+            </div>
+        </section>
+
+        <section class="feedback">
+            <div class="feedback__container container ">
+                <h1 class="feedback__title">Отзывы</h1>
+                <div class="feedback-center-decor">
+                    ,,
+                </div>
+                <div class="feedback__slider">
+                    
+                    <div class="feedback__item">
+                        <div class="feedback__item-rating">
+                            <img class="feedback__item-star" src="./assets/image/star.svg" alt="">
+                            <img class="feedback__item-star" src="./assets/image/star.svg" alt="">
+                            <img class="feedback__item-star" src="./assets/image/star.svg" alt="">
+                            <img class="feedback__item-star" src="./assets/image/star.svg" alt="">
+                            <img class="feedback__item-star" src="./assets/image/star.svg" alt="">
+                        </div>
+                        <p>
+                            Здравствуйте! В июле 2015 года мы решили отдохнуть в посёлке Лазаревское (под Сочи).
+                            Нам этот
+                            посёлок очень хвалили и советовали друзья, бывавшие там уже дважды. Отдыхать мы собрались
+                            большой компанией: я, мой муж, два наших…
+                        </p>
+                        
+                        <span>Читать весь отзыв</span>
+                    </div>
+                    <div class="feedback__item">
+                        <div class="feedback__item-rating">
+                            <img class="feedback__item-star" src="./assets/image/star.svg" alt="">
+                            <img class="feedback__item-star" src="./assets/image/star.svg" alt="">
+                            <img class="feedback__item-star" src="./assets/image/star.svg" alt="">
+                            <img class="feedback__item-star" src="./assets/image/star.svg" alt="">
+                            <img class="feedback__item-star" src="./assets/image/star.svg" alt="">
+                        </div>
+                        <p>
+                            Здравствуйте! В июле 2015 года мы решили отдохнуть в посёлке Лазаревское (под Сочи).
+                            Нам этот
+                            посёлок очень хвалили и советовали друзья, бывавшие там уже дважды. Отдыхать мы собрались
+                            большой компанией: я, мой муж, два наших…
+                        </p>
+                        <span>Читать весь отзыв</span>
+                    </div>
+                    <div class="feedback__item">
+                        <div class="feedback__item-rating">
+                            <img class="feedback__item-star" src="./assets/image/star.svg" alt="">
+                            <img class="feedback__item-star" src="./assets/image/star.svg" alt="">
+                            <img class="feedback__item-star" src="./assets/image/star.svg" alt="">
+                            <img class="feedback__item-star" src="./assets/image/star.svg" alt="">
+                            <img class="feedback__item-star" src="./assets/image/star.svg" alt="">
+                        </div>
+                        <p>
+                            Здравствуйте! В июле 2015 года мы решили отдохнуть в посёлке Лазаревское (под Сочи).
+                            Нам этот
+                            посёлок очень хвалили и советовали друзья, бывавшие там уже дважды. Отдыхать мы собрались
+                            большой компанией: я, мой муж, два наших…
+                        </p>
+                        <span>Читать весь отзыв</span>
+                    </div>
+                    <div class="feedback__item">
+                        <div class="feedback__item-rating">
+                            <img class="feedback__item-star" src="./assets/image/star.svg" alt="">
+                            <img class="feedback__item-star" src="./assets/image/star.svg" alt="">
+                            <img class="feedback__item-star" src="./assets/image/star.svg" alt="">
+                            <img class="feedback__item-star" src="./assets/image/star.svg" alt="">
+                            <img class="feedback__item-star" src="./assets/image/star.svg" alt="">
+                        </div>
+                        <p>
+                            Здравствуйте! В июле 2015 года мы решили отдохнуть в посёлке Лазаревское (под Сочи).
+                            Нам этот
+                            посёлок очень хвалили и советовали друзья, бывавшие там уже дважды. Отдыхать мы собрались
+                            большой компанией: я, мой муж, два наших…
+                        </p>
+                        <span>Читать весь отзыв</span>
+                    </div>
+                    <div class="feedback__item">
+                        <div class="feedback__item-rating">
+                            <img class="feedback__item-star" src="./assets/image/star.svg" alt="">
+                            <img class="feedback__item-star" src="./assets/image/star.svg" alt="">
+                            <img class="feedback__item-star" src="./assets/image/star.svg" alt="">
+                            <img class="feedback__item-star" src="./assets/image/star.svg" alt="">
+                            <img class="feedback__item-star" src="./assets/image/star.svg" alt="">
+                        </div>
+                        <p>
+                            Здравствуйте! В июле 2015 года мы решили отдохнуть в посёлке Лазаревское (под Сочи).
+                            Нам этот
+                            посёлок очень хвалили и советовали друзья, бывавшие там уже дважды. Отдыхать мы собрались
+                            большой компанией: я, мой муж, два наших…
+                        </p>
+                        <span>Читать весь отзыв</span>
+                    </div>
+                    <div class="feedback__item">
+                        <div class="feedback__item-rating">
+                            <img class="feedback__item-star" src="./assets/image/star.svg" alt="">
+                            <img class="feedback__item-star" src="./assets/image/star.svg" alt="">
+                            <img class="feedback__item-star" src="./assets/image/star.svg" alt="">
+                            <img class="feedback__item-star" src="./assets/image/star.svg" alt="">
+                            <img class="feedback__item-star" src="./assets/image/star.svg" alt="">
+                        </div>
+                        <p>
+                            Здравствуйте! В июле 2015 года мы решили отдохнуть в посёлке Лазаревское (под Сочи).
+                            Нам этот
+                            посёлок очень хвалили и советовали друзья, бывавшие там уже дважды. Отдыхать мы собрались
+                            большой компанией: я, мой муж, два наших…
+                        </p>
+                        <span>Читать весь отзыв</span>
+                    </div>
+
+                </div>
+
+                <a class="feedback__button" href=""><button class="button-blue">Читать все отзывы</button></a>
+
+            </div>
+        </section>
+    </main>
+
+
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__content">
+                <div class="footer__social">
+                    <h1>Мы в соцсетях!</h1>
+                    <div>
+                        <a class="social-link" href="#">
+                            <img src="./assets/image/OK.svg" alt="OK">
+                            <span>OK</span>
+                        </a>
+                        <a class="social-link" href="#">
+                            <img src="./assets/image/VK.svg" alt="VK">
+                            <span>VK</span>
+                        </a>
+                        <a class="social-link" href="#">
+                            <img src="./assets/image/YouTube.svg" alt="YouTube">
+                            <span>YouTube</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="footer__info">
+                    <img src="./assets/image/logo.svg" alt="Логотип">
+                    <p>Внимание: портал ProLazarevskoe.ru не является системой on-line бронирования.Здесь вы можете
+                        связаться с владельцами гостевых домов и отелей, частного сектора и квартир.</p>
+                </div>
+                <div class="footer__links">
+                    <h1>О сайте</h1>
+                    <ul>
+                        <li><a href="#"><button class="footer-btn button-green">Добавить объект</button></a></li>
+                        <li><a href="#"><button class="footer-btn">Личный кабинет</button></a></li>
+                        <li><a href="#"><button class="footer-btn">Регистрация на сайте</button></a></li>
+                        <li><a href="#"><button class="footer-btn">Контакты</button></a></li>
+                    </ul>
+                </div>
+            </div>
+            <p class="company">Copyright © Отдых в Лазаревском 2023 — Гостиницы, гостевые дома, частный сектор, квартиры
+                без посредников.</p>
+        </div>
+    </footer>
+
+
+
+    <script src="./assets/js/lib/jquery-3.6.3.min.js"></script>
+    <script src="./assets/js/lib/slick.min.js"></script>
+
+    <script src="./assets/js/burger-menu.js"></script>
+    <script src="./assets/js/user-button.js"></script>
+    <script src="./assets/js/item-script.js"></script>
+    <script src="./assets/js/armor.js"></script>
+    <script src="./assets/js/feedback-slider.js"></script>
+</body>
+
+</html>

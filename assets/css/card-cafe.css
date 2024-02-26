@@ -1,0 +1,36 @@
+.card-cafe__contacts {
+    
+}
+
+.card-cafe__contacts h1 {
+    max-width: 295px;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 18px;
+}
+
+.card-cafe__contacts p {
+    max-width: 295px;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 18px;
+    margin-bottom: 10px;
+}
+
+.card-cafe__services {
+}
+
+.card-cafe__services h1 {
+    max-width: 295px;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 18px;
+}
+
+.card-cafe__services p {
+    max-width: 295px;
+    margin-bottom: 10px;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 18px;
+}

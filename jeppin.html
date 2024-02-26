@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link rel="stylesheet" type="text/css"
+        href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
+
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/root.css">
+    <link rel="stylesheet" href="./assets/css/index.css">
+    <link rel="stylesheet" href="./assets/css/favorites.css">
+    <link rel="stylesheet" href="./assets/css/vacation.css">
+    <link rel="stylesheet" href="./assets/css/comparison.css">
+    <link rel="stylesheet" href="./assets/css/catalog.css">
+    <link rel="stylesheet" href="./assets/css/card.css">
+    <link rel="stylesheet" href="./assets/css/cafe.css">
+    <link rel="stylesheet" href="./assets/css/jepping.css">
+    <link rel="stylesheet" href="./assets/css/components/button.css">   
+
+</head>
+
+<body>
+
+
+    <div class="nav-head">
+        <header class="header">
+            <div class="header__geolocation">
+                <a href="./index.html"><img class="header__logo" src="./assets/image/logo.svg" alt="logo"></a>
+                <div class="header__location-selector">
+                    <img class="header__geo-img" src="./assets/image/location.svg" alt="location">
+                    <select class="header__geo ">
+                        <option value="">Лазаревское</option>
+                        <option value="">Вишневка</option>
+                        <option value="">Волконка</option>
+                    </select>
+                </div>
+            </div>
+            <button class="header__button-object button-green">Добавить объект</button>
+            <div class="header__icons-authentication">
+                <div class="header__icons">
+                    <a class="header__comparison" href="./comparison.html">
+                        <a href="./comparison.html"><img class="header__comparison-img" src="./assets/image/comparison.svg" alt="comparison"></a>
+                    </a>
+                    <a class="header__like" href="./favorites.html">
+                        <a href="./favorites.html"><img class="header__like-img" src="./assets/image/like.svg" alt="like"></a>
+                    </a>
+                </div>
+                <div class="header__authentication">
+                    <button class="header__login-button button-green">Войти</button>
+                    <button class="header__registration-button button-green">Зарегистрироваться</button>
+                </div>
+            </div>
+        </header>
+        <nav class="nav">
+            <div class="container">
+                <div class="navbar">
+                    <button class="nav__menu">
+                        <img src="./assets/image/burger-menu.svg" alt="" id="burger" class="menu-icon">
+                        <img src="./assets/image/cross.svg" alt="" class="close-icon">
+                    </button>
+                    <div class="nav__icons">
+                        <a class="nav__comparison" href="">
+                            <a href="./comparison.html"><img class="nav__comparison-img" src="./assets/image/comparison-white.svg" alt="comparison"></a>
+                        </a>
+                        <a class="nav__like" href="">
+                            <a href="./favorites.html"><img class="nav__like-img" src="./assets/image/like-white.svg" alt="like"></a>
+                        </a>
+                    </div>
+                    <div class="nav__user">
+                        <button class="nav__user-button">
+                            <img src="./assets/image/user.svg" alt="user">
+                        </button>
+                        <div class="nav__authentication">
+                            <div class="nav__func">
+                                <button class="nav__login-button button-green">Войти</button>
+                                <p>или</p>
+                                <button class="nav__registration-button button-green">Зарегистрироваться</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <ul class="nav__list" id="menu">
+                    <li class="nav__item"><a href="./catalog-house.html">Гостевые дома</a></li>
+                    <li class="nav__item"><a href="./catalog-hostel.html">Гостиницы</a></li>
+                    <li class="nav__item"><a href="./catalog-hotel.html">Отели</a></li>
+                    <li class="nav__item"><a href="./catalog.html">Частный сектор</a></li>
+                    <li class="nav__item"><a href="./catalog-flat.html">Квартиры</a></li>
+                    <li class="nav__item"><a href="./catalog-sanatorium.html">Санатории</a></li>
+                    <li class="nav__item"><a href="./catalog-unmove.html">Недвижимость</a></li>
+                    <li class="nav__item"><a href="./catalog-excursion.html">Экскурсии</a></li>
+                    <button class="nav__button-object button-blue ">Добавить объект</button>
+                </ul>
+            </div>
+        </nav>
+    </div>
+
+    <main class="main">
+        <section class="jeppin">
+            <div class="container">
+                <p class="link">
+                    <a class="link" href="">Главная</a>
+                    /Джиппинг в Сочи
+                </p>
+                <div class="sector-container">
+                    <div class="sector-content">
+                        <h1>Джиппинг в Сочи</h1>
+                        <p class="cafe-text">
+                            Мало кто из современных отдыхающих готов полностью посвятить свой отпуск
+                            ленивому лежанию на пляжном песке. Приехав на курорт, туристы готовы платить за интересные
+                            экскурсии и увлекательное времяпровождение. Чем в полной мере пользуются местные жители.
+                            Несколько лет назад на курортах Черноморского побережья появился такой вид активного отдыха,
+                            как джиппинг, или даже уазинг, таблички с этими наименованиями красуются на каждой точке
+                            продажи экскурсий и не только. Джиппинг в Сочи — это покорение экстремальных туристических
+                            маршрутов на внушительных внедорожниках.
+                        </p>
+                    </div>
+                    <div class="sector-img">
+                        <img src="./assets/image/cafe.jpg" alt="">
+                    </div>
+                    <p class="cafe-content__list-mobile">
+                        Мало кто из современных отдыхающих готов полностью посвятить свой отпуск ленивому лежанию
+                        на пляжном песке. Приехав на курорт, туристы готовы платить за интересные экскурсии
+                        и увлекательное времяпровождение. Чем в полной мере пользуются местные жители. Несколько
+                        лет назад на курортах Черноморского побережья появился такой вид активного отдыха, как джиппинг,
+                        или даже уазинг, таблички с этими наименованиями красуются на каждой точке продажи экскурсий
+                        и не только. Джиппинг в Сочи — это покорение экстремальных туристических маршрутов
+                        на внушительных внедорожниках.
+                    </p>
+                </div>
+                <div class="jeppin-content">
+                    <h1 class="jeppin__content-title">Маршруты</h1>
+                    <div class="jeppin__content-item">
+                        <p>Ещё пару лет назад маршруты джиппинга не отличались разнообразием — несколько единичных
+                            туристических троп остались в наследство от советского туризма. С течением времени
+                            в условиях жёсткой конкуренции экскурсионные бюро стали разрабатывать для джиппинга новые,
+                            ранее неизведанные маршруты, доступные раньше разве что пешим туристам-профессионалам.
+                            <br><br>
+                            Маршруты сочинских экскурсионных операторов различаются разнообразием — можно выбрать
+                            не очень длинную поездку по тропе счастья или в мужской монастырь Солох-аул, а можно и 17-ти
+                            часовой тур на Аацинский водопад или 15-ти часовую обзорную экскурсию по Абхазии.
+                            В Лазаревском районе вам предложат отвезти вас на джипе куда только душа пожелает —
+                            по долине величавой реки Аше к красивейшим Водопаду невест и Шапсугскому водопаду, несущим
+                            свои воды в чудных горных теснинах. Или же в уникальную самшитовую рощу, в тихой прохладе
+                            которой журчат 33 Джегошских водопада… Маршрут в Аул Тхагапш даст вам возможность
+                            прикоснуться к величественной природе и искупаться в созданных ею купальных чашах Афродиты
+                            и Аполлона.
+                        </p>
+                        <div class="sector-img">
+                            <img src="./assets/image/cafe.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="jeppin-content">
+                    <h1 class="jeppin__content-title">Советы</h1>
+                    <div class="jeppin__content-item">
+                        <p>Особых критериев отбора участников джиппинга нет — в эту экскурсию может отправиться любой
+                            желающий, готовый терпеть некоторые неудобства ради возможности полюбоваться
+                            умопомрачительными пейзажами и насладиться нетронутой цивилизацией природой.
+                            <br><br>
+                            Одежда для такого путешествия должна быть максимально удобной — кроссовки, шорты
+                            или спортивные трико, не стесняющая движений футболка, обязательно головной убор и,
+                            конечно же, аппаратура для фото — и видеосъемки. На некоторые не очень долгие и сложные
+                            маршруты можно брать и детей.
+                            <br><br>
+                            Имейте в виду, что в машину набирают обычно компанию не меньше 4 человек, поэтому
+                            приобретайте билеты на все места либо дожидайтесь пару-тройку других таких же любителей
+                            экстремальных развлечений. Отправившись на отдых на Черноморское побережье, непременно
+                            выделите время и обязательно совершите увлекательнейшую поездку на джипе или уазе, которая
+                            подарит вам незабываемые впечатления и оставит на память уникальные фото.
+                        </p>
+                        <div class="sector-img">
+                            <img src="./assets/image/cafe.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="jeppin-gallery" >
+            <div class="container" >
+                <h1>Смотрите нашу галерею</h1>
+                <div class="jeppin__gallery-content" >
+                    <div>
+                        <img src="./assets/image/gallery.png" alt="">
+                        <p>Каньон «Прохладный»</p>
+                    </div>
+                    <div>
+                        <img src="./assets/image/gallery.png" alt="">
+                        <p>Долина реки Аше</p>
+                    </div>
+                    <div>
+                        <img src="./assets/image/gallery.png" alt="">
+                        <p>Джиппинг</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="feedback">
+            <div class="feedback__container container ">
+                <h1 class="feedback__title">Отзывы</h1>
+                <div class="feedback-center-decor">
+                    ,,
+                </div>
+                <div class="feedback__slider">
+                    
+                    <div class="feedback__item">
+                        <div class="feedback__item-rating">
+                            <img class="feedback__item-star" src="./assets/image/star.svg" alt="">
+                            <img class="feedback__item-star" src="./assets/image/star.svg" alt="">
+                            <img class="feedback__item-star" src="./assets/image/star.svg" alt="">
+                            <img class="feedback__item-star" src="./assets/image/star.svg" alt="">
+                            <img class="feedback__item-star" src="./assets/image/star.svg" alt="">
+                        </div>
+                        <p>
+                            Здравствуйте! В июле 2015 года мы решили отдохнуть в посёлке Лазаревское (под Сочи).
+                            Нам этот
+                            посёлок очень хвалили и советовали друзья, бывавшие там уже дважды. Отдыхать мы собрались
+                            большой компанией: я, мой муж, два наших…
+                        </p>
+                        
+                        <span>Читать весь отзыв</span>
+                    </div>
+                    <div class="feedback__item">
+                        <div class="feedback__item-rating">
+                            <img class="feedback__item-star" src="./assets/image/star.svg" alt="">
+                            <img class="feedback__item-star" src="./assets/image/star.svg" alt="">
+                            <img class="feedback__item-star" src="./assets/image/star.svg" alt="">
+                            <img class="feedback__item-star" src="./assets/image/star.svg" alt="">
+                            <img class="feedback__item-star" src="./assets/image/star.svg" alt="">
+                        </div>
+                        <p>
+                            Здравствуйте! В июле 2015 года мы решили отдохнуть в посёлке Лазаревское (под Сочи).
+                            Нам этот
+                            посёлок очень хвалили и советовали друзья, бывавшие там уже дважды. Отдыхать мы собрались
+                            большой компанией: я, мой муж, два наших…
+                        </p>
+                        <span>Читать весь отзыв</span>
+                    </div>
+                    <div class="feedback__item">
+                        <div class="feedback__item-rating">
+                            <img class="feedback__item-star" src="./assets/image/star.svg" alt="">
+                            <img class="feedback__item-star" src="./assets/image/star.svg" alt="">
+                            <img class="feedback__item-star" src="./assets/image/star.svg" alt="">
+                            <img class="feedback__item-star" src="./assets/image/star.svg" alt="">
+                            <img class="feedback__item-star" src="./assets/image/star.svg" alt="">
+                        </div>
+                        <p>
+                            Здравствуйте! В июле 2015 года мы решили отдохнуть в посёлке Лазаревское (под Сочи).
+                            Нам этот
+                            посёлок очень хвалили и советовали друзья, бывавшие там уже дважды. Отдыхать мы собрались
+                            большой компанией: я, мой муж, два наших…
+                        </p>
+                        <span>Читать весь отзыв</span>
+                    </div>
+                    <div class="feedback__item">
+                        <div class="feedback__item-rating">
+                            <img class="feedback__item-star" src="./assets/image/star.svg" alt="">
+                            <img class="feedback__item-star" src="./assets/image/star.svg" alt="">
+                            <img class="feedback__item-star" src="./assets/image/star.svg" alt="">
+                            <img class="feedback__item-star" src="./assets/image/star.svg" alt="">
+                            <img class="feedback__item-star" src="./assets/image/star.svg" alt="">
+                        </div>
+                        <p>
+                            Здравствуйте! В июле 2015 года мы решили отдохнуть в посёлке Лазаревское (под Сочи).
+                            Нам этот
+                            посёлок очень хвалили и советовали друзья, бывавшие там уже дважды. Отдыхать мы собрались
+                            большой компанией: я, мой муж, два наших…
+                        </p>
+                        <span>Читать весь отзыв</span>
+                    </div>
+                    <div class="feedback__item">
+                        <div class="feedback__item-rating">
+                            <img class="feedback__item-star" src="./assets/image/star.svg" alt="">
+                            <img class="feedback__item-star" src="./assets/image/star.svg" alt="">
+                            <img class="feedback__item-star" src="./assets/image/star.svg" alt="">
+                            <img class="feedback__item-star" src="./assets/image/star.svg" alt="">
+                            <img class="feedback__item-star" src="./assets/image/star.svg" alt="">
+                        </div>
+                        <p>
+                            Здравствуйте! В июле 2015 года мы решили отдохнуть в посёлке Лазаревское (под Сочи).
+                            Нам этот
+                            посёлок очень хвалили и советовали друзья, бывавшие там уже дважды. Отдыхать мы собрались
+                            большой компанией: я, мой муж, два наших…
+                        </p>
+                        <span>Читать весь отзыв</span>
+                    </div>
+                    <div class="feedback__item">
+                        <div class="feedback__item-rating">
+                            <img class="feedback__item-star" src="./assets/image/star.svg" alt="">
+                            <img class="feedback__item-star" src="./assets/image/star.svg" alt="">
+                            <img class="feedback__item-star" src="./assets/image/star.svg" alt="">
+                            <img class="feedback__item-star" src="./assets/image/star.svg" alt="">
+                            <img class="feedback__item-star" src="./assets/image/star.svg" alt="">
+                        </div>
+                        <p>
+                            Здравствуйте! В июле 2015 года мы решили отдохнуть в посёлке Лазаревское (под Сочи).
+                            Нам этот
+                            посёлок очень хвалили и советовали друзья, бывавшие там уже дважды. Отдыхать мы собрались
+                            большой компанией: я, мой муж, два наших…
+                        </p>
+                        <span>Читать весь отзыв</span>
+                    </div>
+
+                </div>
+
+                <a class="feedback__button " href="">
+                    <button class="button-blue">Оставить отзыв</button>
+                </a>
+
+            </div>
+        </section>
+
+        <section class="private__sector-catalog">
+            <div class="container">
+                <div class="private__sector-catalog-text">
+                    <h1 class="jeppin-excursions" >Другие эскурсии</h1>
+
+                </div>
+                <div class="private__sector-catalog-recommend">
+                    <div class="private__sector-catalog-recommend-eat__list">
+                        <div class="eat-item">
+                            <div class="eat__content">
+                                <div class="eat-item__location">
+                                    <img class="eat-item__geo-img" src="./assets/image/geo-choic.svg" alt="location">
+                                    <span class="eat-item__location-name">Лазаревское</span>
+                                </div>
+                                <div class="eat-item__icons">
+                                    <img class="eat-item__icon" src="./assets/image/like-choice.svg" alt="">
+                                </div>
+                            </div>
+                            <img class="eat__image" src="https://via.placeholder.com/256x193" alt="">
+                            <div class="eat-item-details">
+                                <div class="eat-item-details__rating">
+                                    <img class="eat-item-details__star" src="./assets/image/star.svg" alt="">
+                                    <img class="eat-item-details__star" src="./assets/image/star.svg" alt="">
+                                    <img class="eat-item-details__star" src="./assets/image/star.svg" alt="">
+                                    <img class="eat-item-details__star" src="./assets/image/star.svg" alt="">
+                                    <img class="eat-item-details__star" src="./assets/image/star.svg" alt="">
+                                </div>
+                                <p class="eat-item-details__reviews">Отзывы <span>238</span></p>
+                            </div>
+                            <p class="eat__name">Частый дом "Виталий"</p>
+                            <button class="eat__button button-green ">Подробнее</button>
+                        </div>
+                        <div class="eat-item">
+                            <div class="eat__content">
+                                <div class="eat-item__location">
+                                    <img class="eat-item__geo-img" src="./assets/image/geo-choic.svg" alt="location">
+                                    <span class="eat-item__location-name">Лазаревское</span>
+                                </div>
+                                <div class="eat-item__icons">
+                                    <img class="eat-item__icon" src="./assets/image/like-choice.svg" alt="">
+                                </div>
+                            </div>
+                            <img class="eat__image" src="https://via.placeholder.com/256x193" alt="">
+                            <div class="eat-item-details">
+                                <div class="eat-item-details__rating">
+                                    <img class="eat-item-details__star" src="./assets/image/star.svg" alt="">
+                                    <img class="eat-item-details__star" src="./assets/image/star.svg" alt="">
+                                    <img class="eat-item-details__star" src="./assets/image/star.svg" alt="">
+                                    <img class="eat-item-details__star" src="./assets/image/star.svg" alt="">
+                                    <img class="eat-item-details__star" src="./assets/image/star.svg" alt="">
+                                </div>
+                                <p class="eat-item-details__reviews">Отзывы <span>238</span></p>
+                            </div>
+                            <p class="eat__name">Частный сектор "У Аркадия"</p>
+                            <button class="eat__button button-green ">Подробнее</button>
+                        </div>
+                        <div class="eat-item">
+                            <div class="eat__content">
+                                <div class="eat-item__location">
+                                    <img class="eat-item__geo-img" src="./assets/image/geo-choic.svg" alt="location">
+                                    <span class="eat-item__location-name">Лазаревское</span>
+                                </div>
+                                <div class="eat-item__icons">
+                                    <img class="eat-item__icon" src="./assets/image/like-choice.svg" alt="">
+                                </div>
+                            </div>
+                            <img class="eat__image" src="https://via.placeholder.com/256x193" alt="">
+                            <div class="eat-item-details">
+                                <div class="eat-item-details__rating">
+                                    <img class="eat-item-details__star" src="./assets/image/star.svg" alt="">
+                                    <img class="eat-item-details__star" src="./assets/image/star.svg" alt="">
+                                    <img class="eat-item-details__star" src="./assets/image/star.svg" alt="">
+                                    <img class="eat-item-details__star" src="./assets/image/star.svg" alt="">
+                                    <img class="eat-item-details__star" src="./assets/image/star.svg" alt="">
+                                </div>
+                                <p class="eat-item-details__reviews">Отзывы <span>238</span></p>
+                            </div>
+                            <p class="eat__name">Частный дом "Алла"</p>
+                            <button class="eat__button button-green ">Подробнее</button>
+                        </div>
+                        <div class="eat-item">
+                            <div class="eat__content">
+                                <div class="eat-item__location">
+                                    <img class="eat-item__geo-img" src="./assets/image/geo-choic.svg" alt="location">
+                                    <span class="eat-item__location-name">Лазаревское</span>
+                                </div>
+                                <div class="eat-item__icons">
+                                    <img class="eat-item__icon" src="./assets/image/like-choice.svg" alt="">
+                                </div>
+                            </div>
+                            <img class="eat__image" src="https://via.placeholder.com/256x193" alt="">
+                            <div class="eat-item-details">
+                                <div class="eat-item-details__rating">
+                                    <img class="eat-item-details__star" src="./assets/image/star.svg" alt="">
+                                    <img class="eat-item-details__star" src="./assets/image/star.svg" alt="">
+                                    <img class="eat-item-details__star" src="./assets/image/star.svg" alt="">
+                                    <img class="eat-item-details__star" src="./assets/image/star.svg" alt="">
+                                    <img class="eat-item-details__star" src="./assets/image/star.svg" alt="">
+                                </div>
+                                <p class="eat-item-details__reviews">Отзывы <span>238</span></p>
+                            </div>
+                            <p class="eat__name">Dadayan Hotel</p>
+                            <button class="eat__button button-green ">Подробнее</button>
+                        </div>
+                        
+
+                        
+
+                    </div>
+
+                </div>
+            </div>
+        </section>
+    </main>
+
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__content">
+                <div class="footer__social">
+                    <h1>Мы в соцсетях!</h1>
+                    <div>
+                        <a class="social-link" href="#">
+                            <img src="./assets/image/OK.svg" alt="OK">
+                            <span>OK</span>
+                        </a>
+                        <a class="social-link" href="#">
+                            <img src="./assets/image/VK.svg" alt="VK">
+                            <span>VK</span>
+                        </a>
+                        <a class="social-link" href="#">
+                            <img src="./assets/image/YouTube.svg" alt="YouTube">
+                            <span>YouTube</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="footer__info">
+                    <img src="./assets/image/logo.svg" alt="Логотип">
+                    <p>Внимание: портал ProLazarevskoe.ru не является системой on-line бронирования.Здесь вы можете
+                        связаться с владельцами гостевых домов и отелей, частного сектора и квартир.</p>
+                </div>
+                <div class="footer__links">
+                    <h1>О сайте</h1>
+                    <ul>
+                        <li><a href="#"><button class="footer-btn button-green">Добавить объект</button></a></li>
+                        <li><a href="#"><button class="footer-btn">Личный кабинет</button></a></li>
+                        <li><a href="#"><button class="footer-btn">Регистрация на сайте</button></a></li>
+                        <li><a href="#"><button class="footer-btn">Контакты</button></a></li>
+                    </ul>
+                </div>
+            </div>
+            <p class="company">Copyright © Отдых в Лазаревском 2023 — Гостиницы, гостевые дома, частный сектор, квартиры
+                без посредников.</p>
+        </div>
+    </footer>
+
+
+
+    <script src="./assets/js/lib/jquery-3.6.3.min.js"></script>
+    <script src="./assets/js/lib/slick.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
+    <script src="https://cdn.jsdelivr.net/npm/flatpickr/dist/l10n/ru.js"></script>
+
+    <script src="./assets/js/filters-main.js"></script>
+    <script src="./assets/js/script-slider.js"></script>
+    <script src="./assets/js/burger-menu.js"></script>
+    <script src="./assets/js/user-button.js"></script>
+    <script src="./assets/js/feedback-slider.js"></script>
+</body>
+
+</html>

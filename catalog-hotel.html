@@ -1,0 +1,661 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link rel="stylesheet" type="text/css"
+        href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
+
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/root.css">
+    <link rel="stylesheet" href="./assets/css/index.css">
+    <link rel="stylesheet" href="./assets/css/favorites.css">
+    <link rel="stylesheet" href="./assets/css/vacation.css">
+    <link rel="stylesheet" href="./assets/css/comparison.css">
+    <link rel="stylesheet" href="./assets/css/catalog.css">
+    <link rel="stylesheet" href="./assets/css/card.css">
+    <link rel="stylesheet" href="./assets/css/cafe.css">
+    <link rel="stylesheet" href="./assets/css/components/button.css">
+
+
+</head>
+
+<body>
+    <div class="nav-head">
+        <header class="header">
+            <div class="header__geolocation">
+                <a href="./index.html"><img class="header__logo" src="./assets/image/logo.svg" alt="logo"></a>
+                <div class="header__location-selector">
+                    <img class="header__geo-img" src="./assets/image/location.svg" alt="location">
+                    <select class="header__geo ">
+                        <option value="">Лазаревское</option>
+                        <option value="">Вишневка</option>
+                        <option value="">Волконка</option>
+                    </select>
+                </div>
+            </div>
+            <button class="header__button-object button-green">Добавить объект</button>
+            <div class="header__icons-authentication">
+                <div class="header__icons">
+                    <a class="header__comparison" href="./comparison.html">
+                        <a href="./comparison.html"><img class="header__comparison-img" src="./assets/image/comparison.svg" alt="comparison"></a>
+                    </a>
+                    <a class="header__like" href="./favorites.html">
+                        <a href="./favorites.html"><img class="header__like-img" src="./assets/image/like.svg" alt="like"></a>
+                    </a>
+                </div>
+                <div class="header__authentication">
+                    <button class="header__login-button button-green">Войти</button>
+                    <button class="header__registration-button button-green">Зарегистрироваться</button>
+                </div>
+            </div>
+        </header>
+        <nav class="nav">
+            <div class="container">
+                <div class="navbar">
+                    <button class="nav__menu">
+                        <img src="./assets/image/burger-menu.svg" alt="" id="burger" class="menu-icon">
+                        <img src="./assets/image/cross.svg" alt="" class="close-icon">
+                    </button>
+                    <div class="nav__icons">
+                        <a class="nav__comparison" href="">
+                            <a href="./comparison.html"><img class="nav__comparison-img" src="./assets/image/comparison-white.svg" alt="comparison"></a>
+                        </a>
+                        <a class="nav__like" href="">
+                            <a href="./favorites.html"><img class="nav__like-img" src="./assets/image/like-white.svg" alt="like"></a>
+                        </a>
+                    </div>
+                    <div class="nav__user">
+                        <button class="nav__user-button">
+                            <img src="./assets/image/user.svg" alt="user">
+                        </button>
+                        <div class="nav__authentication">
+                            <div class="nav__func">
+                                <button class="nav__login-button button-green">Войти</button>
+                                <p>или</p>
+                                <button class="nav__registration-button button-green">Зарегистрироваться</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <ul class="nav__list" id="menu">
+                    <li class="nav__item"><a href="./catalog-house.html">Гостевые дома</a></li>
+                    <li class="nav__item"><a href="./catalog-hostel.html">Гостиницы</a></li>
+                    <li class="nav__item"><a href="./catalog-hotel.html">Отели</a></li>
+                    <li class="nav__item"><a href="./catalog.html">Частный сектор</a></li>
+                    <li class="nav__item"><a href="./catalog-flat.html">Квартиры</a></li>
+                    <li class="nav__item"><a href="./catalog-sanatorium.html">Санатории</a></li>
+                    <li class="nav__item"><a href="./catalog-unmove.html">Недвижимость</a></li>
+                    <li class="nav__item"><a href="./catalog-excursion.html">Экскурсии</a></li>
+                    <button class="nav__button-object button-blue ">Добавить объект</button>
+                </ul>
+            </div>
+        </nav>
+    </div>
+
+    <main class="main">
+        <section class="sector">
+            <div class="container">
+
+                <p class="link">
+                    <a class="link" href="">Главная</a>
+                    /Отель
+                </p>
+
+                <div class="sector-container">
+                    <div class="sector-content">
+                        <h1>Отель</h1>
+                        <p class="sector-content__title">Дома для отдыха без посредников</p>
+                        <ul class="sector-content__list">
+                            <li>Бюджетные цены на проживание</li>
+                            <li>Домашняя обстановка</li>
+                            <li>Лояльные условия заселения</li>
+                            <li>Дополнительные возможности и предложения</li>
+                            <li>Возможность самостоятельного приготовления пищи</li>
+                            <li>В некоторых случаях разрешён заезд с питомцами</li>
+                        </ul>
+                    </div>
+                    <div class="sector-img">
+                        <img src="./assets/image/catalog-sector.jpg" alt="">
+                    </div>
+                    <ul class="sector-content__list-mobile">
+                        <li>Бюджетные цены на проживание</li>
+                        <li>Домашняя обстановка</li>
+                        <li>Лояльные условия заселения</li>
+                        <li>Дополнительные возможности и предложения</li>
+                        <li>Возможность самостоятельного приготовления пищи</li>
+                        <li>В некоторых случаях разрешён заезд с питомцами</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section class="catalog">
+            <div class="container">
+                <div class="catalog__list">
+                    <div class="choice-item">
+                        <div class="choice__content">
+                            <div class="choice-item__location">
+                                <img class="choice-item__geo-img" src="./assets/image/geo-choic.svg" alt="location">
+                                <span class="choice-item__location-name">Лазаревское</span>
+                            </div>
+                            <div class="choice-item__icons">
+                                <img class="choice-item__icon" src="./assets/image/comparison-choice.svg" alt="">
+                                <img class="choice-item__icon" src="./assets/image/like-choice.svg" alt="">
+                            </div>
+                        </div>
+                        <a href="./card.html"><img class="choice__image" src="https://via.placeholder.com/256x193" alt=""></a>
+                        <div class="choice-item-details">
+                            <div class="choice-item-details__rating">
+                                <img class="choice-item-details__star" src="./assets/image/star.svg" alt="">
+                                <img class="choice-item-details__star" src="./assets/image/star.svg" alt="">
+                                <img class="choice-item-details__star" src="./assets/image/star.svg" alt="">
+                                <img class="choice-item-details__star" src="./assets/image/star.svg" alt="">
+                                <img class="choice-item-details__star" src="./assets/image/star.svg" alt="">
+                            </div>
+                            <p class="choice-item-details__reviews">Отзывы <span>238</span></p>
+                        </div>
+                        <a href="./card.html">
+                            <p class="choice__name">Отель «Кипарис»</p>
+                        </a>
+                        <div class="choice-item-amenities">
+                            <p class="choice-item-amenities__item">Автостоянка</p>
+                            <p class="choice-item-amenities__item">Бассейн</p>
+                            <p class="choice-item-amenities__item">Детская площадка</p>
+                            <p class="choice-item-amenities__item">Wi-Fi</p>
+                        </div>
+                        <p class="choice__price">от 800 ₽ за сутки</p>
+                        <button class="choice__button button-green ">Подробнее</button>
+                    </div>
+                    
+                    <div class="choice-item">
+                        <div class="choice__content">
+                            <div class="choice-item__location">
+                                <img class="choice-item__geo-img" src="./assets/image/geo-choic.svg" alt="location">
+                                <span class="choice-item__location-name">Лазаревское</span>
+                            </div>
+                            <div class="choice-item__icons">
+                                <img class="choice-item__icon" src="./assets/image/comparison-choice.svg" alt="">
+                                <img class="choice-item__icon" src="./assets/image/like-choice.svg" alt="">
+                            </div>
+                        </div>
+                        <a href="./card.html"><img class="choice__image" src="https://via.placeholder.com/256x193" alt=""></a>
+                        <div class="choice-item-details">
+                            <div class="choice-item-details__rating">
+                                <img class="choice-item-details__star" src="./assets/image/star.svg" alt="">
+                                <img class="choice-item-details__star" src="./assets/image/star.svg" alt="">
+                                <img class="choice-item-details__star" src="./assets/image/star.svg" alt="">
+                                <img class="choice-item-details__star" src="./assets/image/star.svg" alt="">
+                                <img class="choice-item-details__star" src="./assets/image/star.svg" alt="">
+                            </div>
+                            <p class="choice-item-details__reviews">Отзывы <span>238</span></p>
+                        </div>
+                        <a href="./card.html">
+                            <p class="choice__name">Отель «У Альберта» </p>
+                        </a>
+                        <div class="choice-item-amenities">
+                            <p class="choice-item-amenities__item">Автостоянка</p>
+                            <p class="choice-item-amenities__item">Бассейн</p>
+                            <p class="choice-item-amenities__item">Детская площадка</p>
+                            <p class="choice-item-amenities__item">Wi-Fi</p>
+                        </div>
+                        <p class="choice__price">от 200 ₽ за сутки</p>
+                        <button class="choice__button button-green ">Подробнее</button>
+                    </div>
+                    <div class="choice-item">
+                        <div class="choice__content">
+                            <div class="choice-item__location">
+                                <img class="choice-item__geo-img" src="./assets/image/geo-choic.svg" alt="location">
+                                <span class="choice-item__location-name">Лазаревское</span>
+                            </div>
+                            <div class="choice-item__icons">
+                                <img class="choice-item__icon" src="./assets/image/comparison-choice.svg" alt="">
+                                <img class="choice-item__icon" src="./assets/image/like-choice.svg" alt="">
+                            </div>
+                        </div>
+                        <a href="./card.html"><img class="choice__image" src="https://via.placeholder.com/256x193" alt=""></a>
+                        <div class="choice-item-details">
+                            <div class="choice-item-details__rating">
+                                <img class="choice-item-details__star" src="./assets/image/star.svg" alt="">
+                                <img class="choice-item-details__star" src="./assets/image/star.svg" alt="">
+                                <img class="choice-item-details__star" src="./assets/image/star.svg" alt="">
+                                <img class="choice-item-details__star" src="./assets/image/star.svg" alt="">
+                                <img class="choice-item-details__star" src="./assets/image/star.svg" alt="">
+                            </div>
+                            <p class="choice-item-details__reviews">Отзывы <span>238</span></p>
+                        </div>
+                        <a href="./card.html">
+                            <p class="choice__name">Отель «У Аркадия»</p>
+                        </a>
+                        <div class="choice-item-amenities">
+                            <p class="choice-item-amenities__item">Автостоянка</p>
+                            <p class="choice-item-amenities__item">Бассейн</p>
+                            <p class="choice-item-amenities__item">Детская площадка</p>
+                            <p class="choice-item-amenities__item">Wi-Fi</p>
+                        </div>
+                        <p class="choice__price">от 500 ₽ за сутки</p>
+                        <button class="choice__button button-green ">Подробнее</button>
+                    </div>
+                    <div class="choice-item">
+                        <div class="choice__content">
+                            <div class="choice-item__location">
+                                <img class="choice-item__geo-img" src="./assets/image/geo-choic.svg" alt="location">
+                                <span class="choice-item__location-name">Лазаревское</span>
+                            </div>
+                            <div class="choice-item__icons">
+                                <img class="choice-item__icon" src="./assets/image/comparison-choice.svg" alt="">
+                                <img class="choice-item__icon" src="./assets/image/like-choice.svg" alt="">
+                            </div>
+                        </div>
+                        <a href="./card.html"><img class="choice__image" src="https://via.placeholder.com/256x193" alt=""></a>
+                        <div class="choice-item-details">
+                            <div class="choice-item-details__rating">
+                                <img class="choice-item-details__star" src="./assets/image/star.svg" alt="">
+                                <img class="choice-item-details__star" src="./assets/image/star.svg" alt="">
+                                <img class="choice-item-details__star" src="./assets/image/star.svg" alt="">
+                                <img class="choice-item-details__star" src="./assets/image/star.svg" alt="">
+                                <img class="choice-item-details__star" src="./assets/image/star.svg" alt="">
+                            </div>
+                            <p class="choice-item-details__reviews">Отзывы <span>238</span></p>
+                        </div>
+                        <a href="./card.html">
+                            <p class="choice__name">Отель «Алла»</p>
+                        </a>
+                        <div class="choice-item-amenities">
+                            <p class="choice-item-amenities__item">Автостоянка</p>
+                            <p class="choice-item-amenities__item">Бассейн</p>
+                            <p class="choice-item-amenities__item">Детская площадка</p>
+                            <p class="choice-item-amenities__item">Wi-Fi</p>
+                        </div>
+                        <p class="choice__price">от 400 ₽ за сутки</p>
+                        <button class="choice__button button-green ">Подробнее</button>
+                    </div>
+                    <div class="choice-item">
+                        <div class="choice__content">
+                            <div class="choice-item__location">
+                                <img class="choice-item__geo-img" src="./assets/image/geo-choic.svg" alt="location">
+                                <span class="choice-item__location-name">Лазаревское</span>
+                            </div>
+                            <div class="choice-item__icons">
+                                <img class="choice-item__icon" src="./assets/image/comparison-choice.svg" alt="">
+                                <img class="choice-item__icon" src="./assets/image/like-choice.svg" alt="">
+                            </div>
+                        </div>
+                        <a href="./card.html"><img class="choice__image" src="https://via.placeholder.com/256x193" alt=""></a>
+                        <div class="choice-item-details">
+                            <div class="choice-item-details__rating">
+                                <img class="choice-item-details__star" src="./assets/image/star.svg" alt="">
+                                <img class="choice-item-details__star" src="./assets/image/star.svg" alt="">
+                                <img class="choice-item-details__star" src="./assets/image/star.svg" alt="">
+                                <img class="choice-item-details__star" src="./assets/image/star.svg" alt="">
+                                <img class="choice-item-details__star" src="./assets/image/star.svg" alt="">
+                            </div>
+                            <p class="choice-item-details__reviews">Отзывы <span>238</span></p>
+                        </div>
+                        <a href="./card.html">
+                            <p class="choice__name">Отель «У Ани»</p>
+                        </a>
+                        <div class="choice-item-amenities">
+                            <p class="choice-item-amenities__item">Автостоянка</p>
+                            <p class="choice-item-amenities__item">Бассейн</p>
+                            <p class="choice-item-amenities__item">Детская площадка</p>
+                            <p class="choice-item-amenities__item">Wi-Fi</p>
+                        </div>
+                        <p class="choice__price">от 250 ₽ за сутки</p>
+                        <button class="choice__button button-green ">Подробнее</button>
+                    </div>
+                    <div class="choice-item">
+                        <div class="choice__content">
+                            <div class="choice-item__location">
+                                <img class="choice-item__geo-img" src="./assets/image/geo-choic.svg" alt="location">
+                                <span class="choice-item__location-name">Лазаревское</span>
+                            </div>
+                            <div class="choice-item__icons">
+                                <img class="choice-item__icon" src="./assets/image/comparison-choice.svg" alt="">
+                                <img class="choice-item__icon" src="./assets/image/like-choice.svg" alt="">
+                            </div>
+                        </div>
+                        <a href="./card.html"><img class="choice__image" src="https://via.placeholder.com/256x193" alt=""></a>
+                        <div class="choice-item-details">
+                            <div class="choice-item-details__rating">
+                                <img class="choice-item-details__star" src="./assets/image/star.svg" alt="">
+                                <img class="choice-item-details__star" src="./assets/image/star.svg" alt="">
+                                <img class="choice-item-details__star" src="./assets/image/star.svg" alt="">
+                                <img class="choice-item-details__star" src="./assets/image/star.svg" alt="">
+                                <img class="choice-item-details__star" src="./assets/image/star.svg" alt="">
+                            </div>
+                            <p class="choice-item-details__reviews">Отзывы <span>238</span></p>
+                        </div>
+                        <a href="./card.html">
+                            <p class="choice__name">Отель «У Виктора»</p>
+                        </a>
+                        <div class="choice-item-amenities">
+                            <p class="choice-item-amenities__item">Автостоянка</p>
+                            <p class="choice-item-amenities__item">Бассейн</p>
+                            <p class="choice-item-amenities__item">Детская площадка</p>
+                            <p class="choice-item-amenities__item">Wi-Fi</p>
+                        </div>
+                        <p class="choice__price">от 300 ₽ за сутки</p>
+                        <button class="choice__button button-green ">Подробнее</button>
+                    </div>
+                    <div class="choice-item">
+                        <div class="choice__content">
+                            <div class="choice-item__location">
+                                <img class="choice-item__geo-img" src="./assets/image/geo-choic.svg" alt="location">
+                                <span class="choice-item__location-name">Лазаревское</span>
+                            </div>
+                            <div class="choice-item__icons">
+                                <img class="choice-item__icon" src="./assets/image/comparison-choice.svg" alt="">
+                                <img class="choice-item__icon" src="./assets/image/like-choice.svg" alt="">
+                            </div>
+                        </div>
+                        <a href="./card.html"><img class="choice__image" src="https://via.placeholder.com/256x193" alt=""></a>
+                        <div class="choice-item-details">
+                            <div class="choice-item-details__rating">
+                                <img class="choice-item-details__star" src="./assets/image/star.svg" alt="">
+                                <img class="choice-item-details__star" src="./assets/image/star.svg" alt="">
+                                <img class="choice-item-details__star" src="./assets/image/star.svg" alt="">
+                                <img class="choice-item-details__star" src="./assets/image/star.svg" alt="">
+                                <img class="choice-item-details__star" src="./assets/image/star.svg" alt="">
+                            </div>
+                            <p class="choice-item-details__reviews">Отзывы <span>238</span></p>
+                        </div>
+                        <a href="./card.html">
+                            <p class="choice__name">Отель «Татьянин Домик»</p>
+                        </a>
+                        <div class="choice-item-amenities">
+                            <p class="choice-item-amenities__item">Автостоянка</p>
+                            <p class="choice-item-amenities__item">Бассейн</p>
+                            <p class="choice-item-amenities__item">Детская площадка</p>
+                            <p class="choice-item-amenities__item">Wi-Fi</p>
+                        </div>
+                        <p class="choice__price">от 300 ₽ за сутки</p>
+                        <button class="choice__button button-green ">Подробнее</button>
+                    </div>
+                    <div class="choice-item">
+                        <div class="choice__content">
+                            <div class="choice-item__location">
+                                <img class="choice-item__geo-img" src="./assets/image/geo-choic.svg" alt="location">
+                                <span class="choice-item__location-name">Лазаревское</span>
+                            </div>
+                            <div class="choice-item__icons">
+                                <img class="choice-item__icon" src="./assets/image/comparison-choice.svg" alt="">
+                                <img class="choice-item__icon" src="./assets/image/like-choice.svg" alt="">
+                            </div>
+                        </div>
+                        <a href="./card.html"><img class="choice__image" src="https://via.placeholder.com/256x193" alt=""></a>
+                        <div class="choice-item-details">
+                            <div class="choice-item-details__rating">
+                                <img class="choice-item-details__star" src="./assets/image/star.svg" alt="">
+                                <img class="choice-item-details__star" src="./assets/image/star.svg" alt="">
+                                <img class="choice-item-details__star" src="./assets/image/star.svg" alt="">
+                                <img class="choice-item-details__star" src="./assets/image/star.svg" alt="">
+                                <img class="choice-item-details__star" src="./assets/image/star.svg" alt="">
+                            </div>
+                            <p class="choice-item-details__reviews">Отзывы <span>238</span></p>
+                        </div>
+                        <a href="./card.html">
+                            <p class="choice__name">Отель «Надежда»</p>
+                        </a>
+                        <div class="choice-item-amenities">
+                            <p class="choice-item-amenities__item">Автостоянка</p>
+                            <p class="choice-item-amenities__item">Бассейн</p>
+                            <p class="choice-item-amenities__item">Детская площадка</p>
+                            <p class="choice-item-amenities__item">Wi-Fi</p>
+                        </div>
+                        <p class="choice__price">от 300 ₽ за сутки</p>
+                        <button class="choice__button button-green ">Подробнее</button>
+                    </div>
+                    <div class="choice-item">
+                        <div class="choice__content">
+                            <div class="choice-item__location">
+                                <img class="choice-item__geo-img" src="./assets/image/geo-choic.svg" alt="location">
+                                <span class="choice-item__location-name">Лазаревское</span>
+                            </div>
+                            <div class="choice-item__icons">
+                                <img class="choice-item__icon" src="./assets/image/comparison-choice.svg" alt="">
+                                <img class="choice-item__icon" src="./assets/image/like-choice.svg" alt="">
+                            </div>
+                        </div>
+                        <a href="./card.html"><img class="choice__image" src="https://via.placeholder.com/256x193" alt=""></a>
+                        <div class="choice-item-details">
+                            <div class="choice-item-details__rating">
+                                <img class="choice-item-details__star" src="./assets/image/star.svg" alt="">
+                                <img class="choice-item-details__star" src="./assets/image/star.svg" alt="">
+                                <img class="choice-item-details__star" src="./assets/image/star.svg" alt="">
+                                <img class="choice-item-details__star" src="./assets/image/star.svg" alt="">
+                                <img class="choice-item-details__star" src="./assets/image/star.svg" alt="">
+                            </div>
+                            <p class="choice-item-details__reviews">Отзывы <span>238</span></p>
+                        </div>
+                        <a href="./card.html">
+                            <p class="choice__name">Отель «Настасья»</p>
+                        </a>
+                        <div class="choice-item-amenities">
+                            <p class="choice-item-amenities__item">Автостоянка</p>
+                            <p class="choice-item-amenities__item">Бассейн</p>
+                            <p class="choice-item-amenities__item">Детская площадка</p>
+                            <p class="choice-item-amenities__item">Wi-Fi</p>
+                        </div>
+                        <p class="choice__price">от 1000 ₽ за сутки</p>
+                        <button class="choice__button button-green ">Подробнее</button>
+                    </div>
+                    <div class="choice-item">
+                        <div class="choice__content">
+                            <div class="choice-item__location">
+                                <img class="choice-item__geo-img" src="./assets/image/geo-choic.svg" alt="location">
+                                <span class="choice-item__location-name">Лазаревское</span>
+                            </div>
+                            <div class="choice-item__icons">
+                                <img class="choice-item__icon" src="./assets/image/comparison-choice.svg" alt="">
+                                <img class="choice-item__icon" src="./assets/image/like-choice.svg" alt="">
+                            </div>
+                        </div>
+                        <a href="./card.html"><img class="choice__image" src="https://via.placeholder.com/256x193" alt=""></a>
+                        <div class="choice-item-details">
+                            <div class="choice-item-details__rating">
+                                <img class="choice-item-details__star" src="./assets/image/star.svg" alt="">
+                                <img class="choice-item-details__star" src="./assets/image/star.svg" alt="">
+                                <img class="choice-item-details__star" src="./assets/image/star.svg" alt="">
+                                <img class="choice-item-details__star" src="./assets/image/star.svg" alt="">
+                                <img class="choice-item-details__star" src="./assets/image/star.svg" alt="">
+                            </div>
+                            <p class="choice-item-details__reviews">Отзывы <span>238</span></p>
+                        </div>
+                        <a href="./card.html">
+                            <p class="choice__name">Отель «У Жанны»</p>
+                        </a>
+                        <div class="choice-item-amenities">
+                            <p class="choice-item-amenities__item">Автостоянка</p>
+                            <p class="choice-item-amenities__item">Бассейн</p>
+                            <p class="choice-item-amenities__item">Детская площадка</p>
+                            <p class="choice-item-amenities__item">Wi-Fi</p>
+                        </div>
+                        <p class="choice__price">от 1000 ₽ за сутки</p>
+                        <button class="choice__button button-green ">Подробнее</button>
+                    </div>
+                    
+                </div>
+                <button class="catalog__button">Ещё ></button>
+            </div>
+        </section>
+
+        <section class="private__sector-catalog">
+            <div class="container">
+                <div class="private__sector-catalog-text">
+                    <h1>Отель Лазаревское</h1>
+                    <p>Всем, кто желает отправиться в Лазаревское в 2023 году, рекомендуем рассмотреть Отель.
+                        Здесь легко можно найти отличные условия для проживания: низкие цены, обустроенные номера
+                        и дополнительные услуги для отдыхающих. Хозяева гостеприимно встретят туристов и расскажут
+                        о возможностях и предложениях своего посёлка.</p>
+                </div>
+                <div class="private__sector-catalog-recommend">
+
+
+                    <h1 class="private__sector-catalog-recommend-title">Рекомендуем посетить:</h1>
+                    <div class="private__sector-catalog-recommend-eat__list">
+                        <div class="eat-item">
+                            <div class="eat__content">
+                                <div class="eat-item__location">
+                                    <img class="eat-item__geo-img" src="./assets/image/geo-choic.svg" alt="location">
+                                    <span class="eat-item__location-name">Лазаревское</span>
+                                </div>
+                                <div class="eat-item__icons">
+                                    <img class="eat-item__icon" src="./assets/image/like-choice.svg" alt="">
+                                </div>
+                            </div>
+                            <img class="eat__image" src="https://via.placeholder.com/256x193" alt="">
+                            <div class="eat-item-details">
+                                <div class="eat-item-details__rating">
+                                    <img class="eat-item-details__star" src="./assets/image/star.svg" alt="">
+                                    <img class="eat-item-details__star" src="./assets/image/star.svg" alt="">
+                                    <img class="eat-item-details__star" src="./assets/image/star.svg" alt="">
+                                    <img class="eat-item-details__star" src="./assets/image/star.svg" alt="">
+                                    <img class="eat-item-details__star" src="./assets/image/star.svg" alt="">
+                                </div>
+                                <p class="eat-item-details__reviews">Отзывы <span>238</span></p>
+                            </div>
+                            <p class="eat__name">Частый дом "Виталий"</p>
+                            <button class="eat__button button-green ">Подробнее</button>
+                        </div>
+                        <div class="eat-item">
+                            <div class="eat__content">
+                                <div class="eat-item__location">
+                                    <img class="eat-item__geo-img" src="./assets/image/geo-choic.svg" alt="location">
+                                    <span class="eat-item__location-name">Лазаревское</span>
+                                </div>
+                                <div class="eat-item__icons">
+                                    <img class="eat-item__icon" src="./assets/image/like-choice.svg" alt="">
+                                </div>
+                            </div>
+                            <img class="eat__image" src="https://via.placeholder.com/256x193" alt="">
+                            <div class="eat-item-details">
+                                <div class="eat-item-details__rating">
+                                    <img class="eat-item-details__star" src="./assets/image/star.svg" alt="">
+                                    <img class="eat-item-details__star" src="./assets/image/star.svg" alt="">
+                                    <img class="eat-item-details__star" src="./assets/image/star.svg" alt="">
+                                    <img class="eat-item-details__star" src="./assets/image/star.svg" alt="">
+                                    <img class="eat-item-details__star" src="./assets/image/star.svg" alt="">
+                                </div>
+                                <p class="eat-item-details__reviews">Отзывы <span>238</span></p>
+                            </div>
+                            <p class="eat__name">Отель "У Аркадия"</p>
+                            <button class="eat__button button-green ">Подробнее</button>
+                        </div>
+                        <div class="eat-item">
+                            <div class="eat__content">
+                                <div class="eat-item__location">
+                                    <img class="eat-item__geo-img" src="./assets/image/geo-choic.svg" alt="location">
+                                    <span class="eat-item__location-name">Лазаревское</span>
+                                </div>
+                                <div class="eat-item__icons">
+                                    <img class="eat-item__icon" src="./assets/image/like-choice.svg" alt="">
+                                </div>
+                            </div>
+                            <img class="eat__image" src="https://via.placeholder.com/256x193" alt="">
+                            <div class="eat-item-details">
+                                <div class="eat-item-details__rating">
+                                    <img class="eat-item-details__star" src="./assets/image/star.svg" alt="">
+                                    <img class="eat-item-details__star" src="./assets/image/star.svg" alt="">
+                                    <img class="eat-item-details__star" src="./assets/image/star.svg" alt="">
+                                    <img class="eat-item-details__star" src="./assets/image/star.svg" alt="">
+                                    <img class="eat-item-details__star" src="./assets/image/star.svg" alt="">
+                                </div>
+                                <p class="eat-item-details__reviews">Отзывы <span>238</span></p>
+                            </div>
+                            <p class="eat__name">Частный дом "Алла"</p>
+                            <button class="eat__button button-green ">Подробнее</button>
+                        </div>
+                        <div class="eat-item">
+                            <div class="eat__content">
+                                <div class="eat-item__location">
+                                    <img class="eat-item__geo-img" src="./assets/image/geo-choic.svg" alt="location">
+                                    <span class="eat-item__location-name">Лазаревское</span>
+                                </div>
+                                <div class="eat-item__icons">
+                                    <img class="eat-item__icon" src="./assets/image/like-choice.svg" alt="">
+                                </div>
+                            </div>
+                            <img class="eat__image" src="https://via.placeholder.com/256x193" alt="">
+                            <div class="eat-item-details">
+                                <div class="eat-item-details__rating">
+                                    <img class="eat-item-details__star" src="./assets/image/star.svg" alt="">
+                                    <img class="eat-item-details__star" src="./assets/image/star.svg" alt="">
+                                    <img class="eat-item-details__star" src="./assets/image/star.svg" alt="">
+                                    <img class="eat-item-details__star" src="./assets/image/star.svg" alt="">
+                                    <img class="eat-item-details__star" src="./assets/image/star.svg" alt="">
+                                </div>
+                                <p class="eat-item-details__reviews">Отзывы <span>238</span></p>
+                            </div>
+                            <p class="eat__name">Dadayan Hotel</p>
+                            <button class="eat__button button-green ">Подробнее</button>
+                        </div>
+                        
+
+                        
+
+                    </div>
+
+                </div>
+            </div>
+        </section>
+    </main>
+
+
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__content">
+                <div class="footer__social">
+                    <h1>Мы в соцсетях!</h1>
+                    <div>
+                        <a class="social-link" href="#">
+                            <img src="./assets/image/OK.svg" alt="OK">
+                            <span>OK</span>
+                        </a>
+                        <a class="social-link" href="#">
+                            <img src="./assets/image/VK.svg" alt="VK">
+                            <span>VK</span>
+                        </a>
+                        <a class="social-link" href="#">
+                            <img src="./assets/image/YouTube.svg" alt="YouTube">
+                            <span>YouTube</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="footer__info">
+                    <img src="./assets/image/logo.svg" alt="Логотип">
+                    <p>Внимание: портал ProLazarevskoe.ru не является системой on-line бронирования.Здесь вы можете
+                        связаться с владельцами гостевых домов и отелей, частного сектора и квартир.</p>
+                </div>
+                <div class="footer__links">
+                    <h1>О сайте</h1>
+                    <ul>
+                        <li><a href="#"><button class="footer-btn button-green">Добавить объект</button></a></li>
+                        <li><a href="#"><button class="footer-btn">Личный кабинет</button></a></li>
+                        <li><a href="#"><button class="footer-btn">Регистрация на сайте</button></a></li>
+                        <li><a href="#"><button class="footer-btn">Контакты</button></a></li>
+                    </ul>
+                </div>
+            </div>
+            <p class="company">Copyright © Отдых в Лазаревском 2023 — Гостиницы, гостевые дома, Отель, квартиры
+                без посредников.</p>
+        </div>
+    </footer>
+
+
+
+    <script src="./assets/js/lib/jquery-3.6.3.min.js"></script>
+    <script src="./assets/js/lib/slick.min.js"></script>
+
+    <script src="./assets/js/burger-menu.js"></script>
+    <script src="./assets/js/user-button.js"></script>
+    <script src="./assets/js/catalog-load.js"></script>
+    
+</body>
+
+</html>

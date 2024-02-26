@@ -1,0 +1,39 @@
+/* ================================================== BUTTONS ==================================================================== */
+
+.button-green {
+    background-color: var(--birch);
+    color: var(--off-white);
+    padding: 10px 15px;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: 700;
+    font-family: "Montserrat";
+    transition: all 0.4s ease-in-out;
+}
+
+.button-green:focus {
+    background-color: #6cdeaf;
+}
+
+.button-green:hover {
+    background-image: radial-gradient(circle at center, #cbffea, #8cf7cb);
+    
+}
+
+.button-blue {
+    background-color: #2ebde1;
+    color: var(--off-white);
+    border-radius: 15px;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: "Montserrat";
+    transition: all 0.4s ease-in-out;
+}
+
+.button-blue:focus {
+    background-color: #29a9c9;
+}
+
+.button-blue:hover {
+    background-image: radial-gradient(circle at center, #6bdffb, #39c4e6);
+}

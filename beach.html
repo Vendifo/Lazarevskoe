@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link rel="stylesheet" type="text/css"
+        href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
+
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/root.css">
+    <link rel="stylesheet" href="./assets/css/index.css">
+    <link rel="stylesheet" href="./assets/css/favorites.css">
+    <link rel="stylesheet" href="./assets/css/vacation.css">
+    <link rel="stylesheet" href="./assets/css/comparison.css">
+    <link rel="stylesheet" href="./assets/css/catalog.css">
+    <link rel="stylesheet" href="./assets/css/card.css">
+    <link rel="stylesheet" href="./assets/css/cafe.css">
+    <link rel="stylesheet" href="./assets/css/components/button.css">
+    <link rel="stylesheet" href="./assets/css/jepping.css">
+    <link rel="stylesheet" href="./assets/css/beach.css">
+
+</head>
+
+<body>
+    <div class="nav-head">
+        <header class="header">
+            <div class="header__geolocation">
+                <a href="./index.html"><img class="header__logo" src="./assets/image/logo.svg" alt="logo"></a>
+                <div class="header__location-selector">
+                    <img class="header__geo-img" src="./assets/image/location.svg" alt="location">
+                    <select class="header__geo ">
+                        <option value="">Лазаревское</option>
+                        <option value="">Вишневка</option>
+                        <option value="">Волконка</option>
+                    </select>
+                </div>
+            </div>
+            <button class="header__button-object button-green">Добавить объект</button>
+            <div class="header__icons-authentication">
+                <div class="header__icons">
+                    <a class="header__comparison" href="./comparison.html">
+                        <a href="./comparison.html"><img class="header__comparison-img" src="./assets/image/comparison.svg" alt="comparison"></a>
+                    </a>
+                    <a class="header__like" href="./favorites.html">
+                        <a href="./favorites.html"><img class="header__like-img" src="./assets/image/like.svg" alt="like"></a>
+                    </a>
+                </div>
+                <div class="header__authentication">
+                    <button class="header__login-button button-green">Войти</button>
+                    <button class="header__registration-button button-green">Зарегистрироваться</button>
+                </div>
+            </div>
+        </header>
+        <nav class="nav">
+            <div class="container">
+                <div class="navbar">
+                    <button class="nav__menu">
+                        <img src="./assets/image/burger-menu.svg" alt="" id="burger" class="menu-icon">
+                        <img src="./assets/image/cross.svg" alt="" class="close-icon">
+                    </button>
+                    <div class="nav__icons">
+                        <a class="nav__comparison" href="">
+                            <a href="./comparison.html"><img class="nav__comparison-img" src="./assets/image/comparison-white.svg" alt="comparison"></a>
+                        </a>
+                        <a class="nav__like" href="">
+                            <a href="./favorites.html"><img class="nav__like-img" src="./assets/image/like-white.svg" alt="like"></a>
+                        </a>
+                    </div>
+                    <div class="nav__user">
+                        <button class="nav__user-button">
+                            <img src="./assets/image/user.svg" alt="user">
+                        </button>
+                        <div class="nav__authentication">
+                            <div class="nav__func">
+                                <button class="nav__login-button button-green">Войти</button>
+                                <p>или</p>
+                                <button class="nav__registration-button button-green">Зарегистрироваться</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <ul class="nav__list" id="menu">
+                    <li class="nav__item"><a href="./catalog-house.html">Гостевые дома</a></li>
+                    <li class="nav__item"><a href="./catalog-hostel.html">Гостиницы</a></li>
+                    <li class="nav__item"><a href="./catalog-hotel.html">Отели</a></li>
+                    <li class="nav__item"><a href="./catalog.html">Частный сектор</a></li>
+                    <li class="nav__item"><a href="./catalog-flat.html">Квартиры</a></li>
+                    <li class="nav__item"><a href="./catalog-sanatorium.html">Санатории</a></li>
+                    <li class="nav__item"><a href="./catalog-unmove.html">Недвижимость</a></li>
+                    <li class="nav__item"><a href="./catalog-excursion.html">Экскурсии</a></li>
+                    <button class="nav__button-object button-blue ">Добавить объект</button>
+                </ul>
+            </div>
+        </nav>
+    </div>
+
+    <main class="main">
+        <section>
+            <div class="container">
+                <p class="link">
+                    <a class="link" href="">Главная</a>
+                    /Отдых с детьми на море
+                </p>
+                <div>
+                    <div class="sector-container">
+                        <div class="sector-content">
+                            <h1>Пляжи Лазаревского</h1>
+                            <p class="cafe-text">
+                                Ни один из курортов Чёрного моря, расположенных между Туапсе и Сочи, не может предложить
+                                своим гостям такого количества разнообразных мест для пляжного отдыха.
+                                <br><br>
+                                Немного западнее города Сочи располагается побережье курортного микрорайона Лазаревское,
+                                простирающееся по всей береговой линии от микрорайона Дагомыс до села Шепси. На этом
+                                многокилометровом ровном отрезке морского берега вы не найдёте ни одного подводного
+                                укрепления или волнореза. Ширина берега в некоторых местах может достигать пятидесяти
+                                метров. Железнодорожные пути, пролегающие вдоль всей линии побережья Лазаревского,
+                                предусмотрительно огорожены защитными щитами и оборудованы пешеходными мостами
+                                и переходами.
+                            </p>
+                        </div>
+                        <div class="sector-img">
+                            <img src="./assets/image/cafe.jpg" alt="">
+                        </div>
+                        <p class="cafe-content__list-mobile">
+                            Мало кто из современных отдыхающих готов полностью посвятить свой отпуск ленивому лежанию
+                            на пляжном песке. Приехав на курорт, туристы готовы платить за интересные экскурсии
+                            и увлекательное времяпровождение. Чем в полной мере пользуются местные жители. Несколько
+                            лет назад на курортах Черноморского побережья появился такой вид активного отдыха,
+                            как джиппинг,
+                            или даже уазинг, таблички с этими наименованиями красуются на каждой точке продажи экскурсий
+                            и не только. Джиппинг в Сочи — это покорение экстремальных туристических маршрутов
+                            на внушительных внедорожниках.
+                        </p>
+                    </div>
+                    <div class="jeppin-content">
+                        <h1 class="jeppin__content-title">Есть ли песчанный пляж в Лазаревском?</h1>
+                        <div class="jeppin__content-item">
+                            <p>Найти песчаный пляж в Лазаревском не получится, ведь на всем протяжении курортной зоны
+                                морские берега усыпаны галькой. Но если немного отойти от берега по морскому дну,
+                                через несколько метров её сменит чистейший песок. Нагретые солнечным теплом камни,
+                                благоприятно воздействуют на организм человека. Оказывая массажное действие
+                                и способствуя нагреванию мышц всего тела, они позволяют снять напряжение, улучшить
+                                кровообращение и усилить эффект общего расслабления. Но если вам все‑таки хочется
+                                полежать на песчаном берегу, сделать это можно на пляже под названием «Дельфин».
+                                <br><br>
+                                За порядком на территории пляжей Лазаревского тщательно следят и регулярно убирают. Вход
+                                на большинство пляжей свободный и бесплатный. Однако есть некоторые места на береговой
+                                линии, за посещение которых взимается плата. Как правило, они имеют отношение
+                                к каким‑либо пансионатам и являются более комфортными. Кроме стандартных для обычных
+                                пляжей удобств, таких как кабинки для переодевания, туалеты и аренда шезлонгов, здесь
+                                есть возможность принять душ, получить полотенца, зонты и воспользоваться площадками
+                                для игры в волейбол. Подход к морю в таких местах оборудован реечными дорожками,
+                                по которым удобно передвигаться без обуви.
+                            </p>
+                            <div class="sector-img">
+                                <img src="./assets/image/cafe.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <section class="beach__map">
+                    <div class="beach-map map-map"><iframe class="google-map"
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2873.64945782824!2d39.310559776663275!3d43.925231034793576!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40f41bcde833b19d%3A0x53e745d526773d23!2z0YPQuy4g0JHQtdC70LjQvdGB0LrQvtCz0L4sINCh0L7Rh9C4LCDQmtGA0LDRgdC90L7QtNCw0YDRgdC60LjQuSDQutGA0LDQuSwg0KDQvtGB0YHQuNGPLCAzNTQyMDA!5e0!3m2!1sru!2suk!4v1708176244304!5m2!1sru!2suk"
+                            style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+                </section>
+                <section class="beach__content" >
+                    <div class="jeppin-content">
+                        <h1 class="jeppin__content-title">Дикие пляжи в Лазаревском</h1>
+                        <div class="jeppin__content-item">
+                            <p>На окраинах Лазаревского есть дикие пляжи, которые облюбовали нудисты. Желающие посетить столь экзотические места могут найти их в шестидесяти метрах от пляжа под названием «Одиссея» в направлении к городу Сочи или вблизи посёлка Вишнёвка в сторону города Туапсе. Отдыхающие, посетившие курорт на собственном автомобиле, часто останавливаются на пляже пансионата «Лазаревское». А поклонникам тихого отдыха вдали от больших скоплений людей, будет комфортно на пляже посёлка под названием Рыбацкий. На этой части морского побережья всегда мало людей. Соседний его пляж - «Чайка». Пляж туристической базы отдыха Чайка позволяет чередовать купание в море с заплывами в пресной речной воде. В шаговой доступности от него протекает чистейшая горная река. Если двигаться далее по линии берега в сторону Туапсе, то путь будет проходить по территориям благоустроенных пляжей санаториев «Виктория», «Лазаревское взморье» и пансионата «Прометей».
+                            </p>
+                            <div class="sector-img">
+                                <img src="./assets/image/cafe.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="jeppin-content">
+                        <h1 class="jeppin__content-title">Отдых на море не только приносит удовольствие, но и оздоравливает!</h1>
+                        <div class="jeppin__content-item">
+                            <p>Пользу от морского отдыха в Лазаревском невозможно переоценить. Солнечные ванны в сочетании с морским воздухом и оздоравливающим эффектом морской воды благоприятно сказываются на состоянии всего организма. Помимо расслабляющего действия, все эти факторы способствуют улучшению общего самочувствия человека. Купание в морской воде Лазаревского разрешено детям любых возрастов. Отдых на море уже давно у многих туристов ассоциируется с Лазаревским. Вход в море на протяжении всех пляжей равномерный, без резких углублений и провалов. Весь сезон температурные колебания воды у берега не переходят границы 24–26 градусов.
+                            </p>
+                            <div class="sector-img">
+                                <img src="./assets/image/cafe.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="jeppin-content">
+                        <h1 class="jeppin__content-title">Пляжные развлечения для туристов любого возраста</h1>
+                        <div class="jeppin__content-item">
+                            <p>Гости Лазаревского в любом возрасте найдут себе развлечение по душе. На пляжах курорта представлены разнообразные аттракционы, такие как прогулки на катамаранах, катание на скутерах и идущих за катером плотах, «бананах» и «таблетках», погружение на морское дно с аквалангом. Встряхнуться и зарядиться яркими эмоциями, а заодно увидеть побережье с высоты птичьего полёта можно поднявшись в воздух на парашюте или бэтмане.Некоторые пляжи посёлка Лазаревское, такие как «Дельфин» или «Лазурный» приглашают туристов окунуться в Чёрное море, скатившись в него со специально установленных для этого горок. Малыши смогут поплескаться в специальных бассейнах с водными машинками. Есть пляжи с обустроенными вышками для прыжков в воду, бильярдными столами, караоке, а также точками, предлагающими дегустацию коньяка и разнообразных вин.Потрясающими морскими видами можно полюбоваться с борта яхты, выходящей в открытое море, с неё же можно порыбачить и искупаться. Нередко в таких экскурсиях можно встретить дельфинов. К услугам отдыхающих на пляжах Лазаревского работают массажисты и художники, у которых можно заказать свой портрет или купить уже готовую картину. Так же в память об отдыхе можно сделать снимок с колоритными, почти уже местными африканцами или экзотическими животными и птицами.
+                            </p>
+                            <div class="sector-img">
+                                <img src="./assets/image/cafe.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="eat">
+                    <div class="container">
+                        <h1 class="eat__title">Кафе и рестораны</h1>
+                        <div class="eat__list">
+                            <div class="eat-item">
+                                <div class="eat__content">
+                                    <div class="eat-item__location">
+                                        <img class="eat-item__geo-img" src="./assets/image/geo-choic.svg" alt="location">
+                                        <span class="eat-item__location-name">Лазаревское</span>
+                                    </div>
+                                    <div class="eat-item__icons">
+                                        <img class="eat-item__icon" src="./assets/image/like-choice.svg" alt="">
+                                    </div>
+                                </div>
+                                <img class="eat__image" src="./assets/image/choice-cart-img.svg" alt="">
+                                <div class="eat-item-details">
+                                    <div class="eat-item-details__rating">
+                                        <img class="eat-item-details__star" src="./assets/image/star.svg" alt="">
+                                        <img class="eat-item-details__star" src="./assets/image/star.svg" alt="">
+                                        <img class="eat-item-details__star" src="./assets/image/star.svg" alt="">
+                                        <img class="eat-item-details__star" src="./assets/image/star.svg" alt="">
+                                        <img class="eat-item-details__star" src="./assets/image/star.svg" alt="">
+                                    </div>
+                                    <p class="eat-item-details__reviews">Отзывы <span>238</span></p>
+                                </div>
+                                <p class="eat__name">Кафе «Мексиканский тушкан»</p>
+                                <button class="eat__button button-green ">Подробнее</button>
+                            </div>
+                            <div class="eat-item">
+                                <div class="eat__content">
+                                    <div class="eat-item__location">
+                                        <img class="eat-item__geo-img" src="./assets/image/geo-choic.svg" alt="location">
+                                        <span class="eat-item__location-name">Лазаревское</span>
+                                    </div>
+                                    <div class="eat-item__icons">
+                                        <img class="eat-item__icon" src="./assets/image/like-choice.svg" alt="">
+                                    </div>
+                                </div>
+                                <img class="eat__image" src="./assets/image/choice-cart-img.svg" alt="">
+                                <div class="eat-item-details">
+                                    <div class="eat-item-details__rating">
+                                        <img class="eat-item-details__star" src="./assets/image/star.svg" alt="">
+                                        <img class="eat-item-details__star" src="./assets/image/star.svg" alt="">
+                                        <img class="eat-item-details__star" src="./assets/image/star.svg" alt="">
+                                        <img class="eat-item-details__star" src="./assets/image/star.svg" alt="">
+                                        <img class="eat-item-details__star" src="./assets/image/star.svg" alt="">
+                                    </div>
+                                    <p class="eat-item-details__reviews">Отзывы <span>238</span></p>
+                                </div>
+                                <p class="eat__name">Кафе «Мексиканский тушкан»</p>
+                                <button class="eat__button button-green ">Подробнее</button>
+                            </div>
+                            <div class="eat-item">
+                                <div class="eat__content">
+                                    <div class="eat-item__location">
+                                        <img class="eat-item__geo-img" src="./assets/image/geo-choic.svg" alt="location">
+                                        <span class="eat-item__location-name">Лазаревское</span>
+                                    </div>
+                                    <div class="eat-item__icons">
+                                        <img class="eat-item__icon" src="./assets/image/like-choice.svg" alt="">
+                                    </div>
+                                </div>
+                                <img class="eat__image" src="./assets/image/choice-cart-img.svg" alt="">
+                                <div class="eat-item-details">
+                                    <div class="eat-item-details__rating">
+                                        <img class="eat-item-details__star" src="./assets/image/star.svg" alt="">
+                                        <img class="eat-item-details__star" src="./assets/image/star.svg" alt="">
+                                        <img class="eat-item-details__star" src="./assets/image/star.svg" alt="">
+                                        <img class="eat-item-details__star" src="./assets/image/star.svg" alt="">
+                                        <img class="eat-item-details__star" src="./assets/image/star.svg" alt="">
+                                    </div>
+                                    <p class="eat-item-details__reviews">Отзывы <span>238</span></p>
+                                </div>
+                                <p class="eat__name">Кафе «Мексиканский тушкан»</p>
+                                <button class="eat__button button-green ">Подробнее</button>
+                            </div>
+                            <div class="eat-item">
+                                <div class="eat__content">
+                                    <div class="eat-item__location">
+                                        <img class="eat-item__geo-img" src="./assets/image/geo-choic.svg" alt="location">
+                                        <span class="eat-item__location-name">Лазаревское</span>
+                                    </div>
+                                    <div class="eat-item__icons">
+                                        <img class="eat-item__icon" src="./assets/image/like-choice.svg" alt="">
+                                    </div>
+                                </div>
+                                <img class="eat__image" src="./assets/image/choice-cart-img.svg" alt="">
+                                <div class="eat-item-details">
+                                    <div class="eat-item-details__rating">
+                                        <img class="eat-item-details__star" src="./assets/image/star.svg" alt="">
+                                        <img class="eat-item-details__star" src="./assets/image/star.svg" alt="">
+                                        <img class="eat-item-details__star" src="./assets/image/star.svg" alt="">
+                                        <img class="eat-item-details__star" src="./assets/image/star.svg" alt="">
+                                        <img class="eat-item-details__star" src="./assets/image/star.svg" alt="">
+                                    </div>
+                                    <p class="eat-item-details__reviews">Отзывы <span>238</span></p>
+                                </div>
+                                <p class="eat__name">Кафе «Мексиканский тушкан»</p>
+                                <button class="eat__button button-green ">Подробнее</button>
+                            </div>
+                            <div class="eat-item">
+                                <div class="eat__content">
+                                    <div class="eat-item__location">
+                                        <img class="eat-item__geo-img" src="./assets/image/geo-choic.svg" alt="location">
+                                        <span class="eat-item__location-name">Лазаревское</span>
+                                    </div>
+                                    <div class="eat-item__icons">
+                                        <img class="eat-item__icon" src="./assets/image/like-choice.svg" alt="">
+                                    </div>
+                                </div>
+                                <img class="eat__image" src="./assets/image/choice-cart-img.svg" alt="">
+                                <div class="eat-item-details">
+                                    <div class="eat-item-details__rating">
+                                        <img class="eat-item-details__star" src="./assets/image/star.svg" alt="">
+                                        <img class="eat-item-details__star" src="./assets/image/star.svg" alt="">
+                                        <img class="eat-item-details__star" src="./assets/image/star.svg" alt="">
+                                        <img class="eat-item-details__star" src="./assets/image/star.svg" alt="">
+                                        <img class="eat-item-details__star" src="./assets/image/star.svg" alt="">
+                                    </div>
+                                    <p class="eat-item-details__reviews">Отзывы <span>238</span></p>
+                                </div>
+                                <p class="eat__name">Кафе «Мексиканский тушкан»</p>
+                                <button class="eat__button button-green ">Подробнее</button>
+                            </div>
+                            <div class="eat-item">
+                                <div class="eat__content">
+                                    <div class="eat-item__location">
+                                        <img class="eat-item__geo-img" src="./assets/image/geo-choic.svg" alt="location">
+                                        <span class="eat-item__location-name">Лазаревское</span>
+                                    </div>
+                                    <div class="eat-item__icons">
+                                        <img class="eat-item__icon" src="./assets/image/like-choice.svg" alt="">
+                                    </div>
+                                </div>
+                                <img class="eat__image" src="./assets/image/choice-cart-img.svg" alt="">
+                                <div class="eat-item-details">
+                                    <div class="eat-item-details__rating">
+                                        <img class="eat-item-details__star" src="./assets/image/star.svg" alt="">
+                                        <img class="eat-item-details__star" src="./assets/image/star.svg" alt="">
+                                        <img class="eat-item-details__star" src="./assets/image/star.svg" alt="">
+                                        <img class="eat-item-details__star" src="./assets/image/star.svg" alt="">
+                                        <img class="eat-item-details__star" src="./assets/image/star.svg" alt="">
+                                    </div>
+                                    <p class="eat-item-details__reviews">Отзывы <span>238</span></p>
+                                </div>
+                                <p class="eat__name">Кафе «Мексиканский тушкан»</p>
+                                <button class="eat__button button-green ">Подробнее</button>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </section>
+    </main>
+
+
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__content">
+                <div class="footer__social">
+                    <h1>Мы в соцсетях!</h1>
+                    <div>
+                        <a class="social-link" href="#">
+                            <img src="./assets/image/OK.svg" alt="OK">
+                            <span>OK</span>
+                        </a>
+                        <a class="social-link" href="#">
+                            <img src="./assets/image/VK.svg" alt="VK">
+                            <span>VK</span>
+                        </a>
+                        <a class="social-link" href="#">
+                            <img src="./assets/image/YouTube.svg" alt="YouTube">
+                            <span>YouTube</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="footer__info">
+                    <img src="./assets/image/logo.svg" alt="Логотип">
+                    <p>Внимание: портал ProLazarevskoe.ru не является системой on-line бронирования.Здесь вы можете
+                        связаться с владельцами гостевых домов и отелей, частного сектора и квартир.</p>
+                </div>
+                <div class="footer__links">
+                    <h1>О сайте</h1>
+                    <ul>
+                        <li><a href="#"><button class="footer-btn button-green">Добавить объект</button></a></li>
+                        <li><a href="#"><button class="footer-btn">Личный кабинет</button></a></li>
+                        <li><a href="#"><button class="footer-btn">Регистрация на сайте</button></a></li>
+                        <li><a href="#"><button class="footer-btn">Контакты</button></a></li>
+                    </ul>
+                </div>
+            </div>
+            <p class="company">Copyright © Отдых в Лазаревском 2023 — Гостиницы, гостевые дома, частный сектор, квартиры
+                без посредников.</p>
+        </div>
+    </footer>
+
+
+
+    <script src="./assets/js/lib/jquery-3.6.3.min.js"></script>
+    <script src="./assets/js/lib/slick.min.js"></script>
+    <script src="./assets/js/script-slider.js"></script>
+
+    <script src="./assets/js/burger-menu.js"></script>
+    <script src="./assets/js/user-button.js"></script>
+    <script src="./assets/js/catalog-load.js"></script>
+    <script src="./assets/js/feedback-slider.js"></script>
+
+</body>
+
+</html>
